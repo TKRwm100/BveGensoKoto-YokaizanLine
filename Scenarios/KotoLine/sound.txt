@@ -1,0 +1,9 @@
+BveTs Sound List 2.00:
+#Staions
+901mKomakan5Dep,sound\station\901mKomakanDep.wav
+901mVualArr,sound\station\901MVualArr.wav
+
+#901M
+901MKomakanToVualDep,sound\shanai\901MKomakanDepT.wav
+901MKomakanToVualArr,sound\shanai\901MVualArrT.wav
+

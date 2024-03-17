@@ -1,0 +1,715 @@
+BveTs Structure List 1.00:UTF-8
+#rail
+rail,Structures\Rail\Ballast01\BallastPC_h_5a.x
+railtwo,Structures\Rail\Ballast01\BallastPC_k_5a.x
+railthree,Structures\Rail\Ballast01\BallastTR_H_5a.x
+railfour,Structures\Rail\Ballast01\BallastTR_K_5a.x
+slabrailwhite,Structures\Rail\Ballast11\DBallast_5m.x
+slabrail,Structures\Rail\Slab01\SlabS5m.x
+slabraildark,Structures\Rail\Slab01\SlabS5mdark.x
+slabrailtwo,Structures\Rail\Slab01\Slab2S5m.x
+slabrailtwodark,Structures\Rail\Slab01\Slab2S5m_dark.x
+bridgerail,Structures\Rail\_BridgeRail_5.x
+#Tunnel
+Tunnelentry,Structures\Tunnel\huku_c1_ent.x
+Tunnelpotal,Structures\Tunnel\huku_c1_Potal1.x
+Tunnelpotaldark,Structures\Tunnel\huku_c1_Potaldark.x
+Tunnellp,Structures\Tunnel\huku_c1_lp.x
+Tunnelentry-tansen,Structures\Tunnel\1go_c1_ent.x
+Tunnelpotal-tansen,Structures\Tunnel\kouK1_c1_Potal.x
+Tunnelpotaldark-tansen,Structures\Tunnel\kouK1_c1_Potal.x
+Tunnellp-tansen,Structures\Tunnel\kouK1_cr1_lp.x
+#TunnelSign
+jyukaiTun,Structures\GSR\tunnel\jyukai.x
+no1moriya,Structures\GSR\tunnel\no1moriya.x
+no2moriya,Structures\GSR\tunnel\no2moriya.x
+#Platform
+modernformL,Structures\ACCC\Station\Form51L.x
+modernformR,Structures\ACCC\Station\Form51R.x
+modernformgroundL,Structures\ACCC\Station\FormCL.x
+modernformgroundR,Structures\ACCC\Station\FormCR.x
+formL,Structures\Form\Form_Conc_5mL.x
+formR,Structures\Form\Form_Conc_5mR.x
+formgroundL,Structures\Form\Form_Conc_5m3mCL.x
+formgroundR,Structures\Form\Form_Conc_5m3mCR.x
+formendfence,Structures\Tetsu_Otter\form_end_fence\Form_end_fence.x
+#formwall
+fenceL,Structures\ACCC\Station\Fence6L.x
+fenceR,Structures\ACCC\Station\Fence6R.x
+glasswallL,Structures\ACCC\Station\glass6L.x
+glasswallR,Structures\ACCC\Station\glass6R.x
+#bridge
+concbridge,Structures\Bridge\concL_5m.x
+pier,Structures\Wall\Pier.x
+bridgewallL,Structures\Wall\Wall_QN_L5m.x
+bridgewallR,Structures\Wall\Wall_QN_R5m.x
+bridgehandleL,Structures\Bridge\red5_bL.x
+bridgehandleR,Structures\Bridge\red5_bR.x
+bridgeban,Structures\Bridge\red5_b_ban.x
+bridgerope10m,Structures\Accessory\bridgerope10m.x
+bridgerope20m,Structures\Accessory\bridgerope20m.x
+bridgeframework,Structures\Accessory\bridgeframework.x
+#background
+Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
+#nature
+grassland,Structures\Nature\Ground\Grass100m.x
+fieldL,Structures\Nature\Ground\fieldL_25.x
+river,Structures\Nature\River\river50m_green.x
+mount,Structures\Nature\mount\GrsWallL4.x
+mountH,Structures\Nature\mount\GrsWallHL.x
+mountR,Structures\Nature\mount\GrsWallR4.x
+mountHR,Structures\Nature\mount\GrsWallHR.x
+mounttun,Structures\Nature\mount\GrsWall_TunL02.x
+Grass,Structures\Nature\mount\Grass.x
+tree1,Structures\Nature\trees\tree01_S.x
+tree2,Structures\Nature\trees\tree02_S.x
+tree3,Structures\Nature\trees\tree03_S.x
+tree4,Structures\Nature\trees\tree04_S.x
+treeb1,Structures\Nature\treesB\trees01.x
+treeb2,Structures\Nature\treesB\trees02.x
+treeb3,Structures\Nature\treesB\trees03.x
+dikegrassL,Structures\Nature\Ground\DikegrsL.x
+dikegrassR,Structures\Nature\Ground\DikegrsR.x
+bamboo1,Structures\Bamboo\bamboo1.x
+bamboo2,Structures\Bamboo\bamboo2.x
+bamboo3,Structures\Bamboo\bamboo3.x
+bush1,Structures\Nature\bush\b01m.x
+bush2,Structures\Nature\bush\b02m.x
+bush3,Structures\Nature\bush\b03m.x
+bush4,Structures\Nature\bush\b04m.x
+bush5,Structures\Nature\bush\b05m.x
+bush11,Structures\Nature\bush\b11m.x
+bush12,Structures\Nature\bush\b12m.x
+bush13,Structures\Nature\bush\b13m.x
+bush14,Structures\Nature\bush\b14m.x
+bush15,Structures\Nature\bush\b15m.x
+bushb1,Structures\Nature\bush\b01.x
+bushb2,Structures\Nature\bush\b02.x
+bushb3,Structures\Nature\bush\b03.x
+bushb4,Structures\Nature\bush\b04.x
+bushb5,Structures\Nature\bush\b05.x
+bushb11,Structures\Nature\bush\b11.x
+bushb12,Structures\Nature\bush\b12.x
+bushb13,Structures\Nature\bush\b13.x
+bushb14,Structures\Nature\bush\b14.x
+bushb15,Structures\Nature\bush\b15.x
+#wall
+dikewallL,Structures\Wall\seto_k\WallL6.x
+dikewallR,Structures\Wall\seto_k\WallR6.x
+dikewall,Structures\Wall\seto_k\WallL5_5m.x
+dikewallRR,Structures\Wall\seto_k\WallR5_5m.x
+wallL,Structures\StructureSet\other\wall\wallL.x
+wallR,Structures\StructureSet\other\wall\wallR.x
+#overheadlines
+kasen,Structures\Accessory\E_Poles\kasen\kasen40S.x
+bridgepole,Structures\Accessory\E_Poles\Pole\Pole1_stlA.x
+pole,Structures\Accessory\E_Poles\Pole\Pole1_stlB.x
+fukusenpole5,Structures\Accessory\E_Poles\Poletruss\PoleTrs05B.x
+fukusenpole8,Structures\Accessory\E_Poles\Poletruss\PoleTrs08B.x
+acpole,Structures\Accessory\E_Poles\Pole\Pole1AC_BS.x
+tunnelpole,Structures\Accessory\E_Poles\acc\MinibeamF02_dark.x
+kasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
+kasenhangL,Structures\Accessory\E_Poles\acc\MinibeamF01R.x
+kasenhangR,Structures\Accessory\E_Poles\acc\MinibeamF02L.x
+wire40m_L,Structures\GSR\frameworks\wire40m_L.x
+#light
+light,Structures\structure_FL\FL.x
+tunlight,Structures\Tunnel\huku_light.x
+polelight,Structures\StructureSet\other\light\light.x
+#roof
+roof,Structures\lopoli_houses\x\acc\wall\roof\roof.x
+roofnarrow,Structures\lopoli_houses\x\acc\wall\roof\roofnarrow.x
+roofdark,Structures\lopoli_houses\x\acc\wall\roof\roofdark.x
+roofout,Structures\lopoli_houses\x\acc\wall\roof\roofout.x
+roofoutnarrow,Structures\lopoli_houses\x\acc\wall\roof\roofnarrowout.x
+roofeleL,Structures\StructureSet\station\elevated\roofL.x
+roofeleR,Structures\StructureSet\station\elevated\roofR.x
+roofpoleL,Structures\StructureSet\station\elevated\roof_poleL.x
+roofpoleR,Structures\StructureSet\station\elevated\roof_poleR.x
+rooffaceL,Structures\StructureSet\station\elevated\roof_faceL.x
+rooffaceR,Structures\StructureSet\station\elevated\roof_faceR.x
+#stawall
+stawall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5m.x
+stawallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5m.x
+staoutwall,Structures\GSR\frameworks\staoutwall.x
+staoutwall1,Structures\GSR\frameworks\staoutwall1.x
+stafrontwall,Structures\GSR\frameworks\stafrontwall.x
+stafrontwallnarrow,Structures\GSR\frameworks\stafrontwallnarrow.x
+#formwall
+formwallwhite,Structures\lopoli_houses\x\acc\wall\wall_houseL53_5m.x
+formwallgrey,Structures\lopoli_houses\x\acc\wall\wall_houseL54_5m.x
+formwallbrown,Structures\lopoli_houses\x\acc\wall\wall_houseL55_5m.x
+formwallwhiteR,Structures\lopoli_houses\x\acc\wall\wall_houseR53_5m.x
+formwallgreyR,Structures\lopoli_houses\x\acc\wall\wall_houseR54_5m.x
+formwallbrownR,Structures\lopoli_houses\x\acc\wall\wall_houseR55_5m.x
+#tunnelwall
+tunwall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5mdark.x
+tunwallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5mdark.x
+stapier,Structures\Wall\pier.x
+#train
+E129F,Structures\e131\e131\e131Mc.x
+E129B,Structures\e131\e131\e130Tc_end.x
+E129F1,Structures\e131\e131\e131Mc2.x
+E129B1,Structures\e131\e131\e130Tc_end2.x
+
+E127F,Structures\JR121\Mc121.x
+E127B,Structures\JR121\Tc120.x
+#ekimei
+Moriya,Structures\ekimeihyo\Moriya.x
+Kusada,Structures\ekimeihyo\Kusada.x
+Jyukai,Structures\ekimeihyo\Jyukai.x
+Kmyoren,Structures\ekimeihyo\Kmyoren.x
+Myoren,Structures\ekimeihyo\Myorenji.x
+Wningen,Structures\ekimeihyo\Nishiningen.x
+Ningennosato,Structures\ekimeihyo\Ningennosato.x
+Mningen,Structures\ekimeihyo\Minaminingen.x
+Chikurin,Structures\ekimeihyo\Chikurin.x
+eientei,Structures\ekimeihyo\eientei.x
+Mhakurei,Structures\ekimeihyo\Mhakurei.x
+hakurei,Structures\ekimeihyo\hakurei.x
+Komakan,Structures\ekimeihyo\Komakan.x
+shinKomakan,Structures\ekimeihyo\shinKomakan.x
+Vual,Structures\ekimeihyo\Vual.x
+#led
+led,Structures\led\SE-2.x
+hakurei1,Structures\led\hakurei1.x
+hakurei3,Structures\led\hakurei3.x
+hakurei4,Structures\led\hakurei4.x
+hakurei2-101m,Structures\led\hakurei2-101m.x
+hakurei2-103m,Structures\led\hakurei2-103m.x
+mningen1-101m,Structures\led\mningen1-101m.x
+mningen1-103m,Structures\led\mningen1-103m.x
+ningen1,Structures\led\ningen1.x
+ningen2,Structures\led\ningen2.x
+ningen3,Structures\led\ningen3.x
+ningen4,Structures\led\ningen4.x
+1ban,Structures\led\1ban.x
+2ban,Structures\led\2ban.x
+3ban,Structures\led\3ban.x
+4ban,Structures\led\4ban.x
+#road
+road2line_a,Structures\Road\road_070_d.x
+road2line_b,Structures\Road\road_070_c.x
+road1line,Structures\Road\road_045_a.x
+#frameworks
+staframework,Structures\GSR\frameworks\staframework.x
+concpole50cm,Structures\GSR\frameworks\pole1.x
+#cross
+cross1,Structures\Accessory\Cross\Cr_ban2_045.x
+crossbar1,Structures\Accessory\Cross\Cr_barL_045.x
+crossbar1R,Structures\Accessory\Cross\Cr_barR_045.x
+#firstday
+hakureikaigyo,Structures\firstday\hakureikaigyo.x
+redground,Structures\firstday\redground.x
+tapecut,Structures\firstday\tapecut.x
+#people
+rumia-1,Structures\people\rumia-1.x
+cirno-1,Structures\people\cirno-1.x
+aya-1,Structures\people\aya-1.x
+#other
+carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
+crost,Structures\structure_Cro_st\Cro_st.x
+metalfence,Structures\structure_NF\NF.x
+metalfenceL,Structures\structure_RF\RF.x
+stop,Structures\Default\Stop.x
+ropeway,Structures\GSR\signs\ropeway.x
+#bulidings
+koudanapr,Structures\lopoli_houses\x\kodan_apart\kodan.x
+apr,Structures\lopoli_houses\x\apart\AP01_51.x
+woodho1,Structures\lopoli_houses\x\woodhouse\H01_01.x
+woodho4,Structures\lopoli_houses\x\woodhouse\H01_04.x
+woodapr1,Structures\lopoli_houses\x\woodapart\AP01_01.x
+woodapr2,Structures\lopoli_houses\x\woodapart\AP01_02.x
+towerA,Structures\StructureSet\building\tower\A\11.x
+towerB,Structures\StructureSet\building\tower\B\8.x
+towerC,Structures\StructureSet\building\tower\C\10.x
+#elevator
+ele-front,Structures\elevator\ele-front.x
+ele-side,Structures\elevator\ele-side.x
+#stairs
+stairsup,Structures\stairs\stairsup.x
+stairsside,Structures\stairs\stairsside.x
+stairoL,Structures\StructureSet\station\opposed\stairL.x
+stairoR,Structures\StructureSet\station\opposed\stairR.x
+#experimental
+adboard,Structures\adboard\out.x
+kirisame,Structures\adboard\kirisame.x
+nitori,Structures\adboard\nitoricomputer.x
+arrlight,Structures\arrlights\arrlight.x
+#Limit
+9,Structures\Default\SpeedLim9.x
+8,Structures\Default\SpeedLim8.x
+7,Structures\Default\SpeedLim7.x
+6,Structures\Default\SpeedLim6.x
+5,Structures\Default\SpeedLim5.x
+4,Structures\Default\SpeedLim4.x
+3,Structures\Default\SpeedLim3.x
+2,Structures\Default\SpeedLim2.x
+1,Structures\Default\SpeedLim1.x
+0,Structures\Default\SpeedLim0.x
+end,Structures\Default\SpeedLimEnd.x
+L,Structures\Default\SpeedLimL.x
+R,Structures\Default\SpeedLimR.x
+limitpole,Structures\Default\SpeedLimpole.x
+#GradientPost
+GPDD,Structures\Accessory\Posts\GradientPost\Gp_DD.x
+GPDL,Structures\Accessory\Posts\GradientPost\Gp_DL.x
+GPDU,Structures\Accessory\Posts\GradientPost\Gp_DU.x
+GPLD,Structures\Accessory\Posts\GradientPost\Gp_LD.x
+GPLU,Structures\Accessory\Posts\GradientPost\Gp_LU.x
+GPUD,Structures\Accessory\Posts\GradientPost\Gp_UD.x
+GPUL,Structures\Accessory\Posts\GradientPost\Gp_UL.x
+GPUU,Structures\Accessory\Posts\GradientPost\Gp_UU.x
+TunD,Structures\Accessory\Posts\Tunnel\t_pitchD.x
+TunL,Structures\Accessory\Posts\Tunnel\t_pitchL.x
+TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
+#teisha
+100t,Structures\GSR\100mteimae.x
+200t,Structures\GSR\200mteimae.x
+300t,Structures\GSR\300mteimae.x
+teisha,Structures\GSR\teisha.x
+teishaT,Structures\GSR\teishaT.x
+Tmoriya,Structures\GSR\tsta\Moriya.x
+Tkusada,Structures\GSR\tsta\Kusada.x
+Tjyukai,Structures\GSR\tsta\Ynojyukai.x
+Tkmyoren,Structures\GSR\tsta\Kmyoren.x
+Tmyoren,Structures\GSR\tsta\Myorenji.x
+Twningen,Structures\GSR\tsta\Wningen.x
+Tningen,Structures\GSR\tsta\Ningennosato.x
+Tmningen,Structures\GSR\tsta\Mningen.x
+Tchikurin,Structures\GSR\tsta\Chikurin.x
+Teientei,Structures\GSR\tsta\Eientei.x
+Tmhakurei,Structures\GSR\tsta\Mhakurei.x
+#beacon
+PBeacon1,Structures\Default\Beacon4.x
+PBeacon2,Structures\Default\Beacon3.x
+#Signals
+#4灯式(YG),,
+Signal1L0,Structures\Default\Signal4yg0.x
+Signal1L2,Structures\Default\Signal4yg2.x
+Signal1L3,Structures\Default\Signal4yg3.x
+Signal1L4,Structures\Default\Signal4yg4.x
+Signal1G0,Structures\Default\Signal4yg0.x
+Signal1G2,Structures\Default\Signal4yg2.x
+Signal1G3,Structures\Default\Signal4yg3.x
+Signal1G4,Structures\Default\Signal4yg4.x
+,,
+#4灯式（YY）,,
+Signal4L0,Structures\Default\Signal4yy0.x
+Signal4L1,Structures\Default\Signal4yy1.x
+Signal4L2,Structures\Default\Signal4yy2.x
+Signal4L4,Structures\Default\Signal4yy4.x
+Signal4G0,Structures\Default\Signal4yy0.x
+Signal4G1,Structures\Default\Signal4yy1.x
+Signal4G2,Structures\Default\Signal4yy2.x
+Signal4G4,Structures\Default\Signal4yy4.x
+,,
+
+#信号柱
+Sig_Pole     ,Structures\FCS_TM\SigPole\Sig_Pole.x
+Sig_Base     ,Structures\FCS_TM\SigPole\Sig_Base.x
+Sig_Base_Step,Structures\FCS_TM\SigPole\Sig_Base_Step.x
+SigBasket    ,Structures\FCS_TM\SigPole\SigBasket.x
+SigBasket2   ,Structures\FCS_TM\SigPole\SigBasket2.x
+Sig_Arm_SU   ,Structures\FCS_TM\SigPole\Back_Arm_SU.x
+Sig_Arm_SD   ,Structures\FCS_TM\SigPole\Back_Arm_SD.x
+Sig_Arm_MU   ,Structures\FCS_TM\SigPole\Back_Arm_MU.x
+Sig_Arm_MD   ,Structures\FCS_TM\SigPole\Back_Arm_MD.x
+Sig_Arm_LU   ,Structures\FCS_TM\SigPole\Back_Arm_LU.x
+Sig_Arm_LD   ,Structures\FCS_TM\SigPole\Back_Arm_LD.x
+
+#信号ゲージ
+J_Ref        ,Structures\FCS_TM\Reference\Jounai_reference.x    #場内信号設置参考図
+S_Ref        ,Structures\FCS_TM\Reference\Shuppatsu_reference.x #出発信号設置参考図
+
+#信号(電球式)
+#2灯式
+Sig20        ,Structures\FCS_TM\ColorSignal\Sig2b0.x
+Sig22        ,Structures\FCS_TM\ColorSignal\Sig2b2.x    #GY型
+Sig24        ,Structures\FCS_TM\ColorSignal\Sig2b4.x    #GR型
+Sig2E2       ,Structures\FCS_TM\ColorSignal\Sig2Eb2.x   #従属信号
+Sig2E4       ,Structures\FCS_TM\ColorSignal\Sig2Eb4.x   #従属信号
+Flare20      ,Structures\FCS_TM\ColorSignal\Flare20.x
+Flare22      ,Structures\FCS_TM\ColorSignal\Flare22.x
+Flare2E2     ,Structures\FCS_TM\ColorSignal\Flare2E2.x  #従属信号用
+Flare24      ,Structures\FCS_TM\ColorSignal\Flare24.x
+
+#3灯式
+Sig3N        ,Structures\FCS_TM\ColorSignal\Sig3bN.x    #使用停止
+Sig30        ,Structures\FCS_TM\ColorSignal\Sig3b0.x
+Sig30_BN     ,Structures\FCS_TM\ColorSignal\Sig3b0_BN.x #背板無
+Sig32        ,Structures\FCS_TM\ColorSignal\Sig3b2.x
+Sig32_BN     ,Structures\FCS_TM\ColorSignal\Sig3b2_BN.x #背板無
+Sig34        ,Structures\FCS_TM\ColorSignal\Sig3b4.x
+Sig34_BN     ,Structures\FCS_TM\ColorSignal\Sig3b4_BN.x #背板無
+Sig3YxN      ,Structures\FCS_TM\ColorSignal\Sig3bYxN.x  #GR型 使用停止
+Sig3Yx0      ,Structures\FCS_TM\ColorSignal\Sig3bYx0.x  #GR型
+Sig3Yx4      ,Structures\FCS_TM\ColorSignal\Sig3bYx4.x  #GR型
+Sig3GxN      ,Structures\FCS_TM\ColorSignal\Sig3bGxN.x  #GY型 使用停止
+Sig3Gx0      ,Structures\FCS_TM\ColorSignal\Sig3bGx0.x  #GY型
+Sig3Gx2      ,Structures\FCS_TM\ColorSignal\Sig3bGx2.x  #GY型
+Flare30      ,Structures\FCS_TM\ColorSignal\Flare30.x
+Flare32      ,Structures\FCS_TM\ColorSignal\Flare32.x
+Flare34      ,Structures\FCS_TM\ColorSignal\Flare34.x
+
+#4灯式(YY現示)
+Sig4N        ,Structures\FCS_TM\ColorSignal\Sig4bN.x    #使用停止
+Sig4yy0      ,Structures\FCS_TM\ColorSignal\Sig4byy0.x
+Sig4yy1      ,Structures\FCS_TM\ColorSignal\Sig4byy1.x
+Sig4yy2      ,Structures\FCS_TM\ColorSignal\Sig4byy2.x
+Sig4yy4      ,Structures\FCS_TM\ColorSignal\Sig4byy4.x
+Flare4yy0    ,Structures\FCS_TM\ColorSignal\Flare4yy0.x
+Flare4yy1    ,Structures\FCS_TM\ColorSignal\Flare4yy1.x
+Flare4yy2    ,Structures\FCS_TM\ColorSignal\Flare4yy2.x
+Flare4yy4    ,Structures\FCS_TM\ColorSignal\Flare4yy4.x
+
+#4灯式(YG現示) 停止現示はSig4yy0で代用
+Sig4yg2      ,Structures\FCS_TM\ColorSignal\Sig4byg2.x
+Sig4yg3      ,Structures\FCS_TM\ColorSignal\Sig4byg3.x
+Sig4yg4      ,Structures\FCS_TM\ColorSignal\Sig4byg4.x
+Sig4EN       ,Structures\FCS_TM\ColorSignal\Sig4EbN.x   #遠方信号 使用停止
+Sig4E2       ,Structures\FCS_TM\ColorSignal\Sig4Eb2.x   #遠方信号
+Sig4E3       ,Structures\FCS_TM\ColorSignal\Sig4Eb3.x   #遠方信号
+Sig4E4       ,Structures\FCS_TM\ColorSignal\Sig4Eb4.x   #遠方信号
+Flare4yg2    ,Structures\FCS_TM\ColorSignal\Flare4yg2.x
+Flare4yg3    ,Structures\FCS_TM\ColorSignal\Flare4yg3.x
+Flare4yg4    ,Structures\FCS_TM\ColorSignal\Flare4yg4.x
+
+#5灯式
+Sig5N        ,Structures\FCS_TM\ColorSignal\Sig5bN.x    #使用停止
+Sig50        ,Structures\FCS_TM\ColorSignal\Sig5b0.x
+Sig51        ,Structures\FCS_TM\ColorSignal\Sig5b1.x
+Sig52        ,Structures\FCS_TM\ColorSignal\Sig5b2.x
+Sig53        ,Structures\FCS_TM\ColorSignal\Sig5b3.x
+Sig54        ,Structures\FCS_TM\ColorSignal\Sig5b4.x
+Flare50      ,Structures\FCS_TM\ColorSignal\Flare50.x
+Flare51      ,Structures\FCS_TM\ColorSignal\Flare51.x
+Flare52      ,Structures\FCS_TM\ColorSignal\Flare52.x
+Flare53      ,Structures\FCS_TM\ColorSignal\Flare53.x
+Flare54      ,Structures\FCS_TM\ColorSignal\Flare54.x
+
+
+#信号(LED式)
+#手信号代用器
+Sig2TN_LED   ,Structures\FCS_TM\ColorSignal\Sig2TN_LED.x #無灯状態
+Sig2T0_LED   ,Structures\FCS_TM\ColorSignal\Sig2T0_LED.x
+Sig2T4_LED   ,Structures\FCS_TM\ColorSignal\Sig2T4_LED.x
+Sig2T_Arm    ,Structures\FCS_TM\ColorSignal\Sig2T_Arm.x
+
+#2灯式
+Sig2GR0_LED  ,Structures\FCS_TM\ColorSignal\Sig2bGR0_LED.x  #GR型
+Sig2GR4_LED  ,Structures\FCS_TM\ColorSignal\Sig2bGR4_LED.x  #GR型
+Sig2YR0_LED  ,Structures\FCS_TM\ColorSignal\Sig2bYR0_LED.x  #YR型
+Sig2YR2_LED  ,Structures\FCS_TM\ColorSignal\Sig2bYR2_LED.x  #YR型
+Sig2E2_LED   ,Structures\FCS_TM\ColorSignal\Sig2Eb2_LED.x   #従属信号
+Sig2E4_LED   ,Structures\FCS_TM\ColorSignal\Sig2Eb4_LED.x   #従属信号
+
+#3灯式
+Sig3N_LED    ,Structures\FCS_TM\ColorSignal\Sig3bN_LED.x
+Sig30_LED    ,Structures\FCS_TM\ColorSignal\Sig3b0_LED.x
+Sig32_LED    ,Structures\FCS_TM\ColorSignal\Sig3b2_LED.x
+Sig34_LED    ,Structures\FCS_TM\ColorSignal\Sig3b4_LED.x
+Sig3GxN_LED  ,Structures\FCS_TM\ColorSignal\Sig3bGxN_LED.x
+Sig3Gx0_LED  ,Structures\FCS_TM\ColorSignal\Sig3bGx0_LED.x
+Sig3Gx2_LED  ,Structures\FCS_TM\ColorSignal\Sig3bGx2_LED.x
+Sig3YxN_LED  ,Structures\FCS_TM\ColorSignal\Sig3bYxN_LED.x
+Sig3Yx0_LED  ,Structures\FCS_TM\ColorSignal\Sig3bYx0_LED.x
+Sig3Yx4_LED  ,Structures\FCS_TM\ColorSignal\Sig3bYx4_LED.x
+
+#4灯式(YY現示)
+Sig4yyN_LED  ,Structures\FCS_TM\ColorSignal\Sig4byyN_LED.x
+Sig4yy0_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy0_LED.x
+Sig4yy1_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy1_LED.x
+Sig4yy2_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy2_LED.x
+Sig4yy4_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy4_LED.x
+
+#4灯式(YG現示)
+Sig4ygN_LED  ,Structures\FCS_TM\ColorSignal\Sig4bygN_LED.x
+Sig4yg0_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg0_LED.x
+Sig4yg2_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg2_LED.x
+Sig4yg3_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg3_LED.x
+Sig4yg4_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg4_LED.x
+Sig4EN_LED   ,Structures\FCS_TM\ColorSignal\Sig4EbN_LED.x
+Sig4E2_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb2_LED.x
+Sig4E3_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb3_LED.x
+Sig4E4_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb4_LED.x
+
+#5灯式
+Sig5N_LED    ,Structures\FCS_TM\ColorSignal\Sig5bN_LED.x
+Sig50_LED    ,Structures\FCS_TM\ColorSignal\Sig5b0_LED.x
+Sig51_LED    ,Structures\FCS_TM\ColorSignal\Sig5b1_LED.x
+Sig52_LED    ,Structures\FCS_TM\ColorSignal\Sig5b2_LED.x
+Sig53_LED    ,Structures\FCS_TM\ColorSignal\Sig5b3_LED.x
+Sig54_LED    ,Structures\FCS_TM\ColorSignal\Sig5b4_LED.x
+
+#地上子
+ATS-P_1way   ,Structures\FCS_TM\Beacon\ATS-P_1way.x
+ATS-P_2way1  ,Structures\FCS_TM\Beacon\ATS-P_2way1.x
+ATS-P_2way1P ,Structures\FCS_TM\Beacon\ATS-P_2way1P.x
+ATS-P_2way2  ,Structures\FCS_TM\Beacon\ATS-P_2way2.x
+ATS-P_2way2P ,Structures\FCS_TM\Beacon\ATS-P_2way2P.x
+ATS-P_Muden  ,Structures\FCS_TM\Beacon\ATS-P_Muden.x
+ATS-S_L      ,Structures\FCS_TM\Beacon\ATS-S_L.x      # ロング
+ATS-S_S      ,Structures\FCS_TM\Beacon\ATS-S_S.x      # 直下、誤出発
+ATS-S_Speed  ,Structures\FCS_TM\Beacon\ATS-S_Speed.x  # 速度照査
+
+#中継
+Relay0       ,Structures\FCS_TM\RelaySignal\Relay0.x
+Relay1       ,Structures\FCS_TM\RelaySignal\Relay1.x
+Relay4       ,Structures\FCS_TM\RelaySignal\Relay4.x
+
+#中継LED
+Relay0_LED   ,Structures\FCS_TM\RelaySignal\Relay0_LED.x
+Relay1_LED   ,Structures\FCS_TM\RelaySignal\Relay1_LED.x
+Relay4_LED   ,Structures\FCS_TM\RelaySignal\Relay4_LED.x
+FlareR0      ,Structures\FCS_TM\RelaySignal\FlareR0.x
+FlareR1      ,Structures\FCS_TM\RelaySignal\FlareR1.x
+FlareR4      ,Structures\FCS_TM\RelaySignal\FlareR4.x
+
+#入換信号機(入換標識)
+SigI0W       ,Structures\FCS_TM\SwitchSig\SigSb_0W.x # 停止_白タイプ
+SigI0R       ,Structures\FCS_TM\SwitchSig\SigSb_0R.x # 停止_赤タイプ
+SigI4        ,Structures\FCS_TM\SwitchSig\SigSb_4.x
+SigI0W_LED   ,Structures\FCS_TM\SwitchSig\SigSb_0W_LED.x # 停止_白タイプ
+SigI0R_LED   ,Structures\FCS_TM\SwitchSig\SigSb_0R_LED.x # 停止_赤タイプ
+SigI4_LED    ,Structures\FCS_TM\SwitchSig\SigSb_4_LED.x
+SigI_Arm     ,Structures\FCS_TM\SwitchSig\SigSb_Arm.x
+
+#入換信号機識別標識
+Sigib_off    ,Structures\FCS_TM\SwitchSig\Sigib_off.x
+Sigib_on     ,Structures\FCS_TM\SwitchSig\Sigib_on.x
+Sigib_off_LED,Structures\FCS_TM\SwitchSig\Sigib_off_LED.x
+Sigib_on_LED ,Structures\FCS_TM\SwitchSig\Sigib_on_LED.x
+
+##進路表示機
+#2進路用
+SigR20         ,Structures\FCS_TM\RouteIL\2way_type1_0.x
+SigR2L         ,Structures\FCS_TM\RouteIL\2way_type1_L.x
+SigR2R         ,Structures\FCS_TM\RouteIL\2way_type1_R.x
+
+#2進路用LED
+SigR20_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_0.x
+SigR2L_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_L.x
+SigR2R_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_R.x
+
+#3進路用
+SigR30         ,Structures\FCS_TM\RouteIL\3way_type2_0.x
+SigR3L         ,Structures\FCS_TM\RouteIL\3way_type2_L.x
+SigR3C         ,Structures\FCS_TM\RouteIL\3way_type2_C.x
+SigR3R         ,Structures\FCS_TM\RouteIL\3way_type2_R.x
+
+#3進路用LED
+SigR30_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_0.x
+SigR3L_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_L.x
+SigR3C_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_C.x
+SigR3R_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_R.x
+
+#入換3進路用
+SigIR3X        ,Structures\FCS_TM\RouteIL\3way_type1_X.x
+SigIR30        ,Structures\FCS_TM\RouteIL\3way_type1_0.x
+SigIR3L        ,Structures\FCS_TM\RouteIL\3way_type1_L.x
+SigIR3C        ,Structures\FCS_TM\RouteIL\3way_type1_C.x
+SigIR3R        ,Structures\FCS_TM\RouteIL\3way_type1_R.x
+
+#取付金具
+SigR2_Arm      ,Structures\FCS_TM\RouteIL\2way_type1_Arm.x
+SigR3_Arm      ,Structures\FCS_TM\RouteIL\3way_type2_Arm.x
+
+#入換多進路用
+SigIRMN        ,Structures\FCS_TM\RouteIL\MultiR_t3_n.x
+
+#入換多進路用LED
+SigIRMN_LED    ,Structures\FCS_TM\RouteIL\MultiR_t3_LED_n.x
+
+
+##進路予告機
+#背板ありLED
+SigY0_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_0.x
+SigYL_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_L.x
+SigYC_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_C.x
+SigYR_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_R.x
+Flare_yc       ,Structures\FCS_TM\RouteIL\Flare_yc.x
+Flare_yl       ,Structures\FCS_TM\RouteIL\Flare_yl.x
+Flare_yr       ,Structures\FCS_TM\RouteIL\Flare_yr.x
+
+#背板なしLED
+SigYn0_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_0n.x
+SigYnL_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Ln.x
+SigYnC_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Cn.x
+SigYnR_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Rn.x
+
+#取付金具
+SigY_Arm       ,Structures\FCS_TM\RouteIL\3way_yokoku_Arm.x
+
+#信号喚呼位置標
+0_N         ,Structures\e_line\Sign\Kanko\0_N.x
+0_NW        ,Structures\e_line\Sign\Kanko\0_NW.x
+0_O         ,Structures\e_line\Sign\Kanko\0_O.x
+0_OW        ,Structures\e_line\Sign\Kanko\0_OW.x
+1_N         ,Structures\e_line\Sign\Kanko\1_N.x
+1_NW        ,Structures\e_line\Sign\Kanko\1_NW.x
+1_O         ,Structures\e_line\Sign\Kanko\1_O.x
+1_OW        ,Structures\e_line\Sign\Kanko\1_OW.x
+2_N         ,Structures\e_line\Sign\Kanko\2_N.x
+2_NW        ,Structures\e_line\Sign\Kanko\2_NW.x
+2_O         ,Structures\e_line\Sign\Kanko\2_O.x
+2_OW        ,Structures\e_line\Sign\Kanko\2_OW.x
+3_N         ,Structures\e_line\Sign\Kanko\3_N.x
+3_NW        ,Structures\e_line\Sign\Kanko\3_NW.x
+3_O         ,Structures\e_line\Sign\Kanko\3_O.x
+3_OW        ,Structures\e_line\Sign\Kanko\3_OW.x
+4_N         ,Structures\e_line\Sign\Kanko\4_N.x
+4_NW        ,Structures\e_line\Sign\Kanko\4_NW.x
+4_O         ,Structures\e_line\Sign\Kanko\4_O.x
+4_OW        ,Structures\e_line\Sign\Kanko\4_OW.x
+5_N         ,Structures\e_line\Sign\Kanko\5_N.x
+5_NW        ,Structures\e_line\Sign\Kanko\5_NW.x
+5_O         ,Structures\e_line\Sign\Kanko\5_O.x
+5_OW        ,Structures\e_line\Sign\Kanko\5_OW.x
+6_N         ,Structures\e_line\Sign\Kanko\6_N.x
+6_NW        ,Structures\e_line\Sign\Kanko\6_NW.x
+6_O         ,Structures\e_line\Sign\Kanko\6_O.x
+6_OW        ,Structures\e_line\Sign\Kanko\6_OW.x
+7_O         ,Structures\e_line\Sign\Kanko\7_O.x
+7_OW        ,Structures\e_line\Sign\Kanko\7_OW.x
+8_O         ,Structures\e_line\Sign\Kanko\8_O.x
+8_OW        ,Structures\e_line\Sign\Kanko\8_OW.x
+9_O         ,Structures\e_line\Sign\Kanko\9_O.x
+9_OW        ,Structures\e_line\Sign\Kanko\9_OW.x
+10_O        ,Structures\e_line\Sign\Kanko\10_O.x
+10_OW       ,Structures\e_line\Sign\Kanko\10_OW.x
+Chukei_N    ,Structures\e_line\Sign\Kanko\Chukei_N.x
+Chukei_NW   ,Structures\e_line\Sign\Kanko\Chukei_NW.x
+Jonai_N     ,Structures\e_line\Sign\Kanko\Jonai_N.x
+Jonai_NW    ,Structures\e_line\Sign\Kanko\Jonai_NW.x
+Shuppatsu_N ,Structures\e_line\Sign\Kanko\Shuppatsu_N.x
+Shuppatsu_NW,Structures\e_line\Sign\Kanko\Shuppatsu_NW.x
+
+#信号標識
+ATSPcheck,          Structures\JRE_common\other\ATSPcheck.x,#,          ATS確認板
+ATSPtoScheck,       Structures\JRE_common\other\ATSPtoScheck.x,#,
+ATSStoPcheck,       Structures\JRE_common\other\ATSStoPcheck.x,#,
+ATSPcheck1,         Structures\JRE_common\other\ATSPcheck1.x,#,         ATS確認板(縦型)
+ATSPtoScheck1,      Structures\JRE_common\other\ATSPtoScheck1.x,#,
+ATSStoPcheck1,      Structures\JRE_common\other\ATSStoPcheck1.x,#,
+car_stopper,        Structures\JRE_common\other\car stopper.x,#,        車止め標識
+klaxon,             Structures\JRE_common\other\klaxon.x,#,             気笛吹鳴標
+off_for_rapid,      Structures\JRE_common\other\off for rapid.x,#,      惰行標(快速)
+off,                Structures\JRE_common\other\off.x,#,                惰行標
+on,                 Structures\JRE_common\other\on.x,#,                 力行標
+regulations_end,    Structures\JRE_common\other\regulations end.x,#,    要注意箇所標
+regulations_start,  Structures\JRE_common\other\regulations start.x,#,
+stic1,              Structures\JRE_common\other\stic1.x,#,              棒
+stic2,              Structures\JRE_common\other\stic2.x,#,
+stic3,              Structures\JRE_common\other\stic3.x,#,
+stic4,              Structures\JRE_common\other\stic4.x,#,
+Stop_for_a_while,   Structures\JRE_common\other\Stop for a while.x,#,   一旦停止
+stop_EOA,           Structures\JRE_common\other\stop.x,#,               車両停止
+tsunami_regulations,Structures\JRE_common\other\tsunami regulations.x,#,津波注意箇所標
+
+#徐行信号機
+j_alert,        Structures\JRE_common\signal\j alert.x,#,       徐行予告信号機
+j_end,          Structures\JRE_common\signal\j end.x,#,         徐行解除信号機
+j_for_cargo,    Structures\JRE_common\signal\j for cargo.x,#,   貨物列車用
+j_for_cargo1,   Structures\JRE_common\signal\j for cargo1.x,#,
+j_start,        Structures\JRE_common\signal\j start.x,#,       徐行信号機
+j_start1,       Structures\JRE_common\signal\j start1.x,#,
+j_end15,        Structures\JRE_common\signal\jend15.x,#,        徐行解除目標15両
+
+#エアセクション標識
+section_alert,  Structures\JRE_common\air section\section alert.x,#,    セクションゾーン予告
+section_clear3, Structures\JRE_common\air section\section clear3.x,#,   セクションクリア標(3,6,7,8,9,11,13両)
+section_clear6, Structures\JRE_common\air section\section clear6.x,#,
+section_clear7, Structures\JRE_common\air section\section clear7.x,#,
+section_clear8, Structures\JRE_common\air section\section clear8.x,#,
+section_clear9, Structures\JRE_common\air section\section clear9.x,#,
+section_clear11,Structures\JRE_common\air section\section clear11.x,#,
+section_clear13,Structures\JRE_common\air section\section clear13.x,#,
+section,        Structures\JRE_common\air section\section.x,#,          セクションゾーン標識
+section_in,     Structures\JRE_common\air section\section in.x,#,
+section_stop,   Structures\JRE_common\air section\section stop.x,#,     セクション外停止位置表示標
+
+#駅関連標識
+arrow,          Structures\JRE_common\station\arrow.x,#,                誤認防止用矢印
+close_station,  Structures\JRE_common\station\close station.x,#,        停車場接近標
+signal_sign,    Structures\JRE_common\station\signal sign.x,#,          軌道回路境界位置目標(ホーム床)
+
+#信号箱
+SigBox,             Structures\Uchibo20\Signal\Sig_Accessory\SigBox.x,
+
+#信号名
+LabelBS0,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS0.x,#,
+LabelBS1,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS1.x,#,
+LabelBS2,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS2.x,#,
+LabelBS3,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS3.x,#,
+LabelBS4,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS4.x,#,
+LabelBS5,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS5.x,#,
+LabelBS6,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS6.x,#,
+LabelBS7,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS7.x,#,
+LabelBS8,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS8.x,#,
+LabelBS9,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS9.x,#,
+LabelBS0_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS0_L.x,#,      少し大きめのタイプ
+LabelBS1_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS1_L.x,#,
+LabelBS2_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS2_L.x,#,
+LabelBS3_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS3_L.x,#,
+LabelBS4_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS4_L.x,#,
+LabelBS5_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS5_L.x,#,
+LabelBS6_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS6_L.x,#,
+LabelBS7_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS7_L.x,#,
+LabelBS8_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS8_L.x,#,
+LabelBS9_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS9_L.x,#,
+#Label_Uchi-Jo,     Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Uchi-Jo.x,#,   内場
+#Label_Uchi-Shu,    Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Uchi-Shu.x,#,  内出
+Label_Soto-Jo,      Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Soto-Jo.x,#,   外場
+Label_Soto-Shu,     Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Soto-Shu.x,#,  外出
+Label_1-Jo,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_1-Jo.x,#,      1場
+Label_2-Jo,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_2-Jo.x,#,      2場
+Label_3-Jo,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_3-Jo.x,#,      3場
+Label_1-Shu,        Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_1-Shu.x,#,     1出
+Label_2-Shu,        Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_2-Shu.x,#,     2出
+Label_3-Shu,        Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_3-Shu.x,#,     3出
+Label_Soto,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Soto.x,#,      環外
+Label_center,       Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_center.x,#,    車両センター
+
+#信号喚呼位置標(内房線)
+ConfEN,             Structures\Uchibo20\Signal\Sig_Accessory\Conf\ConfEN.x,
+ConfNull,           Structures\Uchibo20\Signal\Sig_Accessory\Conf\ConfNull.x,
+
+#信号ポール
+SigPole,Structures\Default\Sigpole.x
+SigPole_L,Structures\Default\Sigpole.x
+
+#その他
+PS,Structures\GSR\ATSP.x
+PtoS,Structures\GSR\ATSPtoS.x
+Penter,Structures\GSR\ATSPenter.x
+SN,Structures\GSR\SN.x
+check,Structures\CHECKING\CK.x
+check_departure,Structures\CHECKING\CKD.x
+check_home,Structures\CHECKING\CKJ.x
+check_relay,Structures\CHECKING\CKC.x
+
+Track_N,Structures\CR\N.x
+Track_2,Structures\CR\2.x
+SN1,Structures\Default\Beacon0.x
+SN2,Structures\Default\Beacon1.x
+
+#中继
+Rep0,Structures\Default\signalrep0.x
+Rep1,Structures\Default\signalrep1.x
+Rep4,Structures\Default\signalrep4.x
+#RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
+#RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
+
+#進路表示
+#CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
+#CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
+#CR3,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\3.x,
+CR4,Structures\CR\CR4.x,
+,,
+
+#デッドセクション標識
+Yokoku,Structures\Section\Yokoku.x,
+Dako,Structures\Section\Dako.x,
+Section,Structures\Section\Section.x,
+Rikko,Structures\Section\Rikko.x,

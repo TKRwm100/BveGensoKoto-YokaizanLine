@@ -1,0 +1,5 @@
+﻿BveTs Station List 1.00
+#stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
+1,紅魔館,10:01:20,10:02:20,47,10:01:20,1,0,0,,901MKomakan5Dep,0,0
+2,新紅魔館,p,10:06:00,30,,0,0,0,,,0,0
+3,ヴワル,10:10:10,10:10:40,25,10:10:10,1,0,0,901MVualArr,,0,0
