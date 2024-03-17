@@ -24,6 +24,13 @@ BVE幻想郷鉄道と共通の車両を使用しています
 ### JR East E127 Series
 E127 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since May 8, 1995. Currently, this simulated route uses a 2-car formation of this train.<br>
 This vehicle data is licensed under [CC BY-NC 2.1 JP DEED license](https://creativecommons.org/licenses/by-nc/2.1/jp/deed.en) and embedded in the route data with some modifications.<br>
+## SoundData
+### 日本語アナウンス
+VOICEVOX:四国めたん
+### 英語アナウンス
+VOICEVOX:春日部つむぎ
+### 発車メロディ・車内チャイム
+東方原曲アレンジ
 ## Operating method
 Please visit the train creator's website
 ## Contact us
