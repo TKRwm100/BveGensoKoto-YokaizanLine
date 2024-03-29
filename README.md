@@ -7,13 +7,12 @@
 暫定公開につき未完成です
 ## Update
 2024/03/17 ver0.1暫定公開
+2024/03/29 ver0.2暫定公開
 ## BVE幻想郷鉄道の設定との差異
-### 紅魔館駅の配線
+### 紅魔館駅・ヴワル駅の配線
 制作後に設定に気が付いたため
 ### 新紅魔館駅及び紅魔館駅～新紅魔館駅
 博麗神社・永遠亭・人間の里方面からの直通列車運転への対応のため
-### 運転車両
-暫定公開のため
 ## Installation Guide
 Scenariosディレクトリ内をBVEのシナリオディレクトリにコピーしてください
 
@@ -26,10 +25,22 @@ BVE幻想郷鉄道、本シナリオともに以下のサイトを参考に制�
 <br>
 
 ## Train information
-BVE幻想郷鉄道と共通の車両を使用しています
+JR西日本681系を利用しています<br>
+[こちら](https://bve-westsyaryo.jimdofree.com/)からダウンロードしてください<br>
+又、GeneralAtsPluginが必要です<br>
+[こちら](https://github.com/uifnm/GeneralAtsPlugin)からダウンロードしてください<br>
 ### JR East E127 Series
 E127 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since May 8, 1995. Currently, this simulated route uses a 2-car formation of this train.<br>
 This vehicle data is licensed under [CC BY-NC 2.1 JP DEED license](https://creativecommons.org/licenses/by-nc/2.1/jp/deed.en) and embedded in the route data with some modifications.<br>
+## StructureInfomation
+### NagoyaCommons
+このシナリオはなごこも必須です<br>
+[こちら](https://moffbarrel.stars.ne.jp/)からダウンロードしてください<br>
+## ATSInfomation
+### ATSEx
+このシナリオにはATSExを追加できます<br>
+ATSExについては以下をご覧ください<br>
+[![ATSEx](https://www.okaoka-depot.com/contents/bve/banner_AtsEX.svg)](https://www.okaoka-depot.com/AtsEX/)
 ## SoundData
 ### 日本語アナウンス
 VOICEVOX:四国めたん
@@ -60,5 +71,4 @@ Yukkuri_Bve<br>
 雑庫Site<br>
 うたたね<br>
 P車解結可6連<br>
-some station music are from this page:<br>
-https://commons.nicovideo.jp/users/upload/157209?page=2
+北摂快速<br>
