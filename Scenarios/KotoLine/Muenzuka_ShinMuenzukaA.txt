@@ -1,0 +1,58 @@
+BveTs Map 2.02
+$distance;
+
+distance+50;
+	Curve.BeginTransition();
+	Structure['RailEnd1'].Put('2',0,0,0,0,0,0,0,0);
+	Repeater['Rail2'].End();
+	Repeater['Kasen2'].End();
+	Repeater['Rail2'].Begin0('2',1,4.99,5,'Ballast');
+	Repeater['Rail3'].End();
+	Repeater['Kasen3'].End();
+	Repeater['Rail4'].End();
+	Repeater['Kasen4'].End();
+	Repeater['Rail5'].End();
+	Repeater['Kasen5'].End();
+
+	Track['2'].Position(4,-0.01,0,0);
+	Track['5'].Position(4,-0.01,0,0);
+distance+16;
+	Curve.Begin(-2000,0);
+distance+2100;
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+
+	Curve.BeginTransition();
+distance+16;
+	Curve.Begin(2000,0);
+distance+2100;
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+
+	Repeater['formL1'].Begin('1',0, 0, 0, , , ,3,,5, 'formL');
+	Repeater['formgroundL1'].Begin('1',0, 0, 0, , , ,3,,5, 'formgroundL');
+distance+250;
+	Station['YamazakiOkawa'].Put(1,-5,5);
+	Structure['stop'].Put('1',2,-0.3,0,,,,,);
+distance+10;
+	Repeater['formL1'].End();
+	Repeater['formgroundL1'].End();
+	Curve.BeginTransition();
+	Track['2'].Position(4,0,8,0);
+	Track['3'].Position(0,0,0,0);
+	Track['4'].Position(4,0,8,0);
+distance+16;
+	Curve.Begin(-2000,0);
+distance+1800;
+	Repeater['Rail2'].End();
+	Structure['RailEnd1'].Put('2',0,0,0,0,180,0,0,0);
+	Repeater['Rail2'].Begin0('2',1,4.99,5,'rail');
+	Repeater['Rail3'].Begin0('3',1,4.99,5,'rail');
+	Repeater['Rail4'].Begin0('4',1,4.99,5,'rail');
+distance+300;
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+$distance=distance;

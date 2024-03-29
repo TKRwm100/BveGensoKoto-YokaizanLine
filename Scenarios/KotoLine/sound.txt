@@ -2,8 +2,18 @@ BveTs Sound List 2.00:
 #Staions
 901mKomakan5Dep,sound\station\901mKomakanDep.wav
 901mVualArr,sound\station\901MVualArr.wav
+901mVualDep,sound\station\901MVualDep.wav
+901mMuenzukaArr,sound\station\901MMuenzukaArr.wav
+901mMuenzukaDep,sound\station\901MMuenzukaDep.wav
+901mKawashiroArr,sound\station\901MKawashiroArr.wav
+901mKawashiroDep,sound\station\901MKawashiroDep.wav
 
 #901M
-901MKomakanToVualDep,sound\shanai\901MKomakanDepT.wav
-901MKomakanToVualArr,sound\shanai\901MVualArrT.wav
+901MKomakanStopingT,sound\shanai\901MKomakanStopingT.wav
+901MKomakanDepT,sound\shanai\901MKomakanDepT.wav
+901MVualArrT,sound\shanai\901MVualArrT.wav
+901MVualDepT,sound\shanai\901MVualDepT.wav
+901MMuenzukaArrT,sound\shanai\901MMuenzukaArrT.wav
+901MMuenzukaDepT,sound\shanai\901MMuenzukaDepT.wav
+901MKawashiroArrT,sound\shanai\901MKawashiroArrT.wav
 

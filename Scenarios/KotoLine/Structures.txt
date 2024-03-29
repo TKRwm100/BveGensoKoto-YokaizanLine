@@ -1,6 +1,7 @@
 BveTs Structure List 1.00:UTF-8
 #rail
 rail,Structures\Rail\Ballast01\BallastPC_h_5a.x
+Ballast,Structures\Rail\Ballast01\Ballast5a.x
 railtwo,Structures\Rail\Ballast01\BallastPC_k_5a.x
 railthree,Structures\Rail\Ballast01\BallastTR_H_5a.x
 railfour,Structures\Rail\Ballast01\BallastTR_K_5a.x
@@ -106,6 +107,7 @@ bridgepole,Structures\Accessory\E_Poles\Pole\Pole1_stlA.x
 pole,Structures\Accessory\E_Poles\Pole\Pole1_stlB.x
 fukusenpole5,Structures\Accessory\E_Poles\Poletruss\PoleTrs05B.x
 fukusenpole8,Structures\Accessory\E_Poles\Poletruss\PoleTrs08B.x
+PoleTruss14,Structures\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
 acpole,Structures\Accessory\E_Poles\Pole\Pole1AC_BS.x
 tunnelpole,Structures\Accessory\E_Poles\acc\MinibeamF02_dark.x
 kasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
@@ -713,3 +715,30 @@ Yokoku,Structures\Section\Yokoku.x,
 Dako,Structures\Section\Dako.x,
 Section,Structures\Section\Section.x,
 Rikko,Structures\Section\Rikko.x,
+
+#681系
+Tsc681,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\Tsc681.x
+Tc681,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\Tc681.x
+Tc680-500,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\Tc680-500.x
+Tc681-200,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\Tc681-200.x
+Mc681-500,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\Mc681-500.x
+T680,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\T680.x
+T681-200,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\T681-200.x
+T681-300,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\T681-300.x
+M681,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\M681.x
+M681-200,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\M681-200.x
+M681-307,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\M681-307.x
+M681-300,Structures\681系0番台しらさぎ色ストラクチャー\681-0_W\M681-300.x
+
+#ATSEx識別子用
+AtsEx::User::Toukaitetudou::SingleTrackSignal::SignalChange.Switch,Structures\Section\null.x,
+AtsEx::User::Toukaitetudou::SingleTrackSignal::SignalChange.Target,Structures\Section\null.x,
+
+#信号番号
+sig1,Structures\Section\null.x,
+
+#列車番号
+902M,Structures\Section\null.x,
+
+#車止め
+RailEnd1,..\Nagoya_Common\Railway_Obj\End\1_End.x

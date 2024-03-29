@@ -1,0 +1,60 @@
+BveTs Map 2.02
+$ATS;
+
+$ATS - 30; //地上子の距離程
+
+     Beacon.Put(4,1,0); //即時停止地上子(第1引数=5 絶対信号機(場内,出発)は4にする)
+
+     Beacon.Put(3,1,1); //パターン更新地上子(第1引数=3) 1閉塞先を読み取る
+
+     Beacon.Put(3,2,2); //2閉塞先　このように第2,3引数は同じ数字を指定
+
+     Beacon.Put(3,3,3); //3閉塞先
+
+     Beacon.Put(3,4,4); //4閉塞先
+
+     Beacon.Put(3,5,9); //5閉塞先　最後のみ第3引数は9を指定
+
+
+ 
+
+$ATS - 85;
+
+     Beacon.Put(3,1,1); //同様に指定間隔毎にパターン更新地上子設置
+
+     Beacon.Put(3,2,2);
+
+     Beacon.Put(3,3,3);
+
+     Beacon.Put(3,4,4);
+
+     Beacon.Put(3,5,9);
+
+
+ 
+
+$ATS - 180;
+
+     Beacon.Put(3,1,1);
+
+     Beacon.Put(3,2,2);
+
+     Beacon.Put(3,3,3);
+
+     Beacon.Put(3,4,4);
+
+     Beacon.Put(3,5,9);
+
+ 
+
+$ATS - 600;
+
+     Beacon.Put(3,1,1);
+
+     Beacon.Put(3,2,2);
+
+     Beacon.Put(3,3,3);
+
+     Beacon.Put(3,4,4);
+
+     Beacon.Put(3,5,9);

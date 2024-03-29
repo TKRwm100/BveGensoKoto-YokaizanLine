@@ -1,0 +1,76 @@
+BveTs Map 2.02
+$distance;
+
+distance+500;
+
+	Curve.BeginTransition();
+distance+16;
+	Curve.Begin(600,0);
+distance+100;
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+
+distance+25;
+	Curve.BeginTransition();
+distance+16;
+	Curve.Begin(-600,0);
+distance+1800;
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+	Curve.BeginTransition();
+distance+16;
+	Curve.Begin(1000,0);
+distance+90;
+
+	Repeater['formL1'].Begin('1',0, 0, 0, , , ,3,,5, 'formL');
+	Repeater['formgroundL1'].Begin('1',0, 0, 0, , , ,3,,5, 'formgroundL');
+distance+250;
+	Station['Kirinomizuumihama'].Put(1,-5,5);
+	Structure['stop'].Put('1',2,-0.3,0,,,,,);
+distance+10;
+	Repeater['formL1'].End();
+	Repeater['formgroundL1'].End();
+
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+distance+1000;
+
+	Curve.BeginTransition();
+distance+16;
+	Curve.Begin(1000,0);
+distance+100;
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+distance+500;
+
+	Curve.BeginTransition();
+distance+16;
+	Curve.Begin(700,0);
+distance+2100;
+	Curve.BeginTransition();
+distance+16;
+	Curve.End();
+	Repeater['formL1'].Begin('1',0, 0, 0, , , ,3,,5, 'formL');
+	Repeater['formgroundL1'].Begin('1',0, 0, 0, , , ,3,,5, 'formgroundL');
+distance+250;
+	Station['Saishinomichi'].Put(1,-5,5);
+	Structure['stop'].Put('1',2,-0.3,0,,,,,);
+distance+10;
+	Repeater['formL1'].End();
+	Repeater['formgroundL1'].End();
+distance+2000;
+	Structure['RailEnd1'].Put('2',0,0,0,0,180,0,0,0);
+	Sound['901MMuenzukaArrT'].Play();
+	Track['2'].X.Interpolate(4,0);
+	Repeater['Rail2'].Begin0('2',1,4.99,5,'rail');
+	Repeater['kasen2'].Begin0('2',3,39.99,40,'kasen');
+	Repeater['pole2'].Begin('2',0,0,0,0,180,0,3,39.99,40,'bridgepole');
+	Repeater['kasen3'].Begin0('3',3,39.99,40,'kasen');
+	Track['5'].X.Interpolate(4,0);
+	Repeater['Rail5'].Begin0('5',1,4.99,5,'rail');
+	Repeater['kasen5'].Begin0('5',3,39.99,40,'kasen');
+$distance=distance;

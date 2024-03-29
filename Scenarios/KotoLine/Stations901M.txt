@@ -1,5 +1,13 @@
 ﻿BveTs Station List 1.00
 #stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
-1,紅魔館,10:01:20,10:02:20,47,10:01:20,1,0,0,,901MKomakan5Dep,0,0
-2,新紅魔館,p,10:06:00,30,,0,0,0,,,0,0
-3,ヴワル,10:10:10,10:10:40,25,10:10:10,1,0,0,901MVualArr,,0,0
+KirinomizuumiDeport,霧の湖車庫,09:43:00,09:44,0,09:43:00,1,0,0,,,0,0
+Komakan,紅魔館,09:46:00,10:00:00,60,09:46:00,1,1,1,901MKomakanStopingT,901MKomakan5Dep,0,0
+ShinKomakan,新紅魔館,p,10:04:00,0,,0,0,0,,,0,0
+Vual,ヴワル,10:06:00,10:07:00,40,,1,0,0,901MVualArr,901MVualDep,0,0
+Kirinomizuumihama,霧の湖浜,p,10:08:00,0,,0,0,0,,,0,0
+Saishinomichi,再思の道,p,10:10:00,0,,0,0,0,,,0,0
+Muenzuka,無縁塚,10:13:00,10:14:00,40,10:13:00,1,0,0,901MMuenzukaArr,901MMuenzukaDep,0,0
+YamazakiOkawa,山前大川,p,10:15:00,0,,0,0,0,,,0,0
+ShinMuenzukaSignal,新無縁塚(信),p,10:19:00,0,,0,0,0,,,0,0
+Yasaka,八坂,p,10:21:00,0,,1,0,0,,,0,06,
+Kawashiro,河城,10:23:00,10:24:00,40,10:23:00,1,0,0,901MKawashiroArr,901MKawashiroDep,0,0
