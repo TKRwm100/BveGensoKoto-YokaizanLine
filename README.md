@@ -49,11 +49,11 @@ ATSExについては以下をご覧ください<br>
 <code>AtsEx::User::Toukaitetudou::SingleTrackSignal::SignalChange.Target</code><br>
 を第1引数とし、任意の信号IDを第2引数とする独自マップ構文のある閉塞区間を観測対象となる列車が<br>
 <code>AtsEx::User::Toukaitetudou::SingleTrackSignal::SignalChange.Switch</code><br>
-を第1引数、信号の制御対象となる信号IDを第2引数とし、観測対象となる他列車の列車キーを第3引数とする独自マップ構文設置位置に侵入するまで強制的に赤現示に保ちます
+を第1引数、信号の制御対象となる信号IDを第2引数とし、観測対象となる他列車の列車キーを第3引数とする独自マップ構文設置位置に侵入するまで強制的に赤現示に保ちます<br>
 ご自由にお使いください
 ### StateViewerForMap.dll
-おーとま氏作のStateViewerをマッププラグイン用に改造したものになります
-尚、このデータの二次利用はお断りします
+おーとま氏作のStateViewerをマッププラグイン用に改造したものになります<br>
+尚、このデータの利用は原作StateViewerに準じるものとします
 ## SoundData
 ### 日本語アナウンス
 VOICEVOX:四国めたん
