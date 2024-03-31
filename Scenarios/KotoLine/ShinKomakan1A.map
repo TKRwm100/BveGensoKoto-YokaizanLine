@@ -81,7 +81,7 @@ distance+100;
 distance+40;
 	Section.Begin(0,4);
 $ATS=distance;
-	include 'AbsolutePSignalBeacon.txt';
+	include 'AbsolutePSignalBeacon.map';
 $ATS;
 	Signal['Type2gr'].Put(0,'1',-2.4,4.4,-0.06,,,,,);
 	Structure['LabelBS4_L'].Put('1',-2.4,3,-0.1,,,,,);

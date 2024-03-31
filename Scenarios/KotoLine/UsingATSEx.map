@@ -1,0 +1,4 @@
+BveTs Map 2.02
+include '<AtsEx::USEATSEX>';
+include '<AtsEx::READDEPTH>1';
+include '<AtsEx::MapPluginUsing>MapPluginUsing.xml';

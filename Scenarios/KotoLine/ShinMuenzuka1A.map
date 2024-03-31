@@ -9,7 +9,7 @@ distance+16;
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
 $ATS=distance;
-	include 'AbsolutePSignalBeacon.txt';
+	include 'AbsolutePSignalBeacon.map';
 $ATS;
 	Track['3'].Position(0,0,0,0);
 distance+16;
@@ -51,7 +51,7 @@ distance+40;
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,,,,5);
 	
 $ATS=distance;
-	include 'AbsolutePSignalBeacon.txt';
+	include 'AbsolutePSignalBeacon.map';
 $ATS;
 	Track['2'].Position(16,0,0,0);
 	Track['3'].Position(8,0,-800,0);

@@ -1,8 +1,4 @@
-﻿BveTs Map 2.02
-include '<AtsEx::USEATSEX>';
-include '<AtsEx::READDEPTH>1';
-
-include '<AtsEx::MapPluginUsing>MapPluginUsing.xml';
+BveTs Map 2.02
 	#RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 	#RollingNoise Setting(EF81)-> 0=25mrail 2=bridge 3=tunnel 4=longrail
 $dist1=1560;
@@ -25,18 +21,18 @@ Signal.SpeedLimit(0,25,45,65,95);
 	SpeedLimit.Begin(95);
 	Beacon.Put(25,0,211);
 $distance=distance;
-	include 'KirinomizuumiDeport1A.txt';
+	include 'KirinomizuumiDeport1A.map';
 
 0+$dist1;
-include 'Komakan5A.txt';
-include 'ShinKomakan1A.txt';
-include 'ShinKomakan_VualA.txt';
-include 'Vual2A.txt';
-include 'Vual_MuenzukaA.txt';
-include 'Muenzuka2A.txt';
-include 'Muenzuka_ShinMuenzukaA.txt';
-include 'ShinMuenzuka1A.txt';
-include 'ShinMuenzuka_KawashiroA.txt';
-include 'Kawashiro2A.txt';
-include 'Kawashiro_AyaA.txt';
-include 'final.txt';
+include 'Komakan5A.map';
+include 'ShinKomakan1A.map';
+include 'ShinKomakan_VualA.map';
+include 'Vual2A.map';
+include 'Vual_MuenzukaA.map';
+include 'Muenzuka2A.map';
+include 'Muenzuka_ShinMuenzukaA.map';
+include 'ShinMuenzuka1A.map';
+include 'ShinMuenzuka_KawashiroA.map';
+include 'Kawashiro2A.map';
+include 'Kawashiro_AyaA.map';
+include 'final.map';

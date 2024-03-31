@@ -2,7 +2,7 @@ BveTs Scenario 2.00:UTF-8
 
 Title = 湖東線 臨時特急 901M 紅魔館->ヴワル
 Author = Toukaitetudou&SapporoNingyo&Contributors on Github
-Route = KotoLine\Map901M.txt
+Route = KotoLine\Map901M.map
 RouteTitle = Koto Line
 Vehicle = NS\Train\681\Vehicle_txt\Vehicle_W_NP.txt
 VehicleTitle = JR West 681 series（9 car）
