@@ -1,5 +1,5 @@
 # Gensokyo Railway Bve Trainsim 5 route　KotoLine-YokaizanLine<br>BVE幻想郷鉄道　湖東線・妖怪山線
-[Developer Guide](dev.md)<br>
+[開発者ガイド](dev.md)<br>
 
 ## 概要
 [BVE幻想郷鉄道](https://github.com/noname390/BVE-Gensokyo-Railway/)<br>
