@@ -1,6 +1,7 @@
 # 開発者ガイド
 注意：Toukaitetudouによる翻訳です<br>
-    誤訳等による一切の損害は負いかねますのでご了承ください
+    誤訳等による一切の損害は負いかねますのでご了承ください<br>
+    尚、翻訳元については[こちら](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)をご覧ください
 <br>
 
 ## 開発環境の設定
