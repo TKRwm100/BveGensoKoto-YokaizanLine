@@ -1,4 +1,4 @@
-﻿BveTs Station List 1.00
+﻿BveTs Station List 2.00
 #stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
 KirinomizuumiDeport,霧の湖車庫,09:43:00,09:44,0,09:43:00,1,0,0,,,0,0
 Komakan,紅魔館,09:46:00,10:00:00,60,09:46:00,1,1,1,901MKomakanStopingT,901MKomakan5Dep,0,0

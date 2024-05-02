@@ -17,4 +17,6 @@ distance+1000;
     Curve.BeginTransition();
 distance+16;
     Curve.End();
+
+	
 $distance=distance;

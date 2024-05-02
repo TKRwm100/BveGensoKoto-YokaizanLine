@@ -22,16 +22,28 @@ distance+136;
 	Track['2'].Position(4,-0.01,604,0);
 $dt=82;
 distance+$dt;
-	Repeater['bridgewallL4'].Begin('2',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
-	Repeater['bridgewallR4'].Begin('6',0.2,-0.5,0, , , ,3,,5, 'bridgewallR');
-	Repeater['bridgewallL1'].Begin('1',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
+	Repeater['bridgewallL4'].Begin('2',-0.2,-0.5,0, , , ,3,,1, 'bridgewallL');
+	Repeater['bridgewallR4'].Begin('6',0.2,-0.5,0, , , ,3,,3, 'bridgewallR');
+	Repeater['bridgewallL1'].Begin('1',-0.2,-0.5,0, , , ,3,,3, 'bridgewallL');
 distance-$dt;
 distance+600;
 	Track['5'].Position(608,0,-600,0);
 	Repeater['slabRail5'].End();
+	//['kasenhangR'].End();
+	Repeater['bridgewallR1'].End();
+	Repeater['bridgewallR3'].End();
+	Repeater['pole5'].End();
+	Repeater['concbridge5'].End();
+	
 distance+4;
 	Track['2'].Position(608,0,-600,0);
 	Repeater['slabRail2'].End();
+	Repeater['concbridge2'].End();
+	//Structure['kasenhangL'].End();
+	Repeater['bridgewallL4'].End();
+	Repeater['pole2'].End();
+	Repeater['concbridge2'].End();
+	
 distance-4;
 distance+0;
 	Structure['Yokoku'].Put('4',2.7,3,-6.25,,,,,);
@@ -59,12 +71,12 @@ distance+25;
 	Structure['formL'].Put('1',-6,-1.18,-1.7,0,90,,,);
 	
 distance+8;
-	Structure['formL'].Put('4',0,-1.29,-4.82,-15,,,,);
-	Structure['formR'].Put('1',0,-1.29,-4.82,-15,,,,);
+	Structure['formL'].Put('4',-0.15,-1.29,-4.82,-15,,,,);
+	Structure['formR'].Put('1', 0.15,-1.29,-4.82,-15,,,,);
 	Structure['formgroundL'].Put('4',0,-1.29,-4.82,-15,,,,);
 
-	Repeater['formL1'].Begin('4',0, 0, 0, , , ,3,,5, 'formL');
-	Repeater['formR1'].Begin('1',0, 0, 0, , , ,3,,5, 'formR');
+	Repeater['formL1'].Begin('4',-0.15, 0, 0, , , ,3,,5, 'formL');
+	Repeater['formR1'].Begin('1', 0.15, 0, 0, , , ,3,,5, 'formR');
 	Repeater['formgroundL1'].Begin('4',0, 0, 0, , , ,3,,5, 'formgroundL');
     Repeater['ekimei'].Begin('1',3.5,1,10, ,90,,3,,20, 'shinKomakan');
 distance+100;

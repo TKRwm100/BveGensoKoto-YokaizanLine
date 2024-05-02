@@ -11,11 +11,11 @@ distance+50;
 	Track['4'].X.Interpolate(0,0);
 	Track['6'].X.Interpolate(0,0);
 
-	Beacon.Put(8,0,300100);#‰º‚èŒù”z
+	
 	Beacon.Put(9,0,325080); #‹Èü
 distance+300;
 	
-	Gradient.Begin(-18.7);
+	Gradient.Begin(-3);
 	Track['ground'].Position(0,-13,0,0);
 
 	Track['3'].X.Interpolate(0,0);
@@ -46,7 +46,6 @@ distance+25;
 	Gradient.End();
 $Beacon=distance;
 distance+250;
-	Beacon.Put(18,0,0); #‰º‚èŒù”z
 	SpeedLimit.End();
 $Beacon;
 	Track['ground'].Position(0,0,0,0);

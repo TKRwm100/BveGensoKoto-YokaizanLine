@@ -17,9 +17,10 @@ Tunnelpotal,Structures\Tunnel\huku_c1_Potal1.x
 Tunnelpotaldark,Structures\Tunnel\huku_c1_Potaldark.x
 Tunnellp,Structures\Tunnel\huku_c1_lp.x
 Tunnelentry-tansen,Structures\Tunnel\1go_c1_ent.x
-Tunnelpotal-tansen,Structures\Tunnel\kouK1_c1_Potal.x
-Tunnelpotaldark-tansen,Structures\Tunnel\kouK1_c1_Potal.x
-Tunnellp-tansen,Structures\Tunnel\kouK1_cr1_lp.x
+Tunnelexit-tansen,Structures\Tunnel\1go_c1_ext.x
+Tunnelpotal-tansen,Structures\Tunnel\1go_c1_Potal1.x
+Tunnelpotaldark-tansen,Structures\Tunnel\1go_c1_Potal1.x
+Tunnellp-tansen,Structures\Tunnel\1go_c1_lp.x
 #TunnelSign
 jyukaiTun,Structures\GSR\tunnel\jyukai.x
 no1moriya,Structures\GSR\tunnel\no1moriya.x
@@ -28,7 +29,9 @@ no2moriya,Structures\GSR\tunnel\no2moriya.x
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x
 modernformgroundL,Structures\ACCC\Station\FormCL.x
+modernformgroundL1,Structures\ACCC\Station\FormCL1.x
 modernformgroundR,Structures\ACCC\Station\FormCR.x
+modernformgroundR1,Structures\ACCC\Station\FormCR.x
 formL,Structures\Form\Form_Conc_5mL.x
 formR,Structures\Form\Form_Conc_5mR.x
 formgroundL,Structures\Form\Form_Conc_5m3mCL.x
@@ -742,3 +745,6 @@ sig1,Structures\Section\null.x,
 
 #車止め
 RailEnd1,..\Nagoya_Common\Railway_Obj\End\1_End.x
+
+#建築限界
+Kentikugenkai,..\KentikuGenkai\Kentikugenkai.x
