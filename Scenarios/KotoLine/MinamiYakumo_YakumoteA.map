@@ -1,0 +1,12 @@
+BveTs Map 2.02
+$distance;
+Curve.BeginTransition();
+distance+16;
+Curve.Begin(-2000,0);
+distance+3200;
+Curve.BeginTransition();
+distance+16;
+Curve.End();
+distance+2000;
+
+$distance=distance;

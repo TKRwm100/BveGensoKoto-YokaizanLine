@@ -1,8 +1,8 @@
 BveTs Map 2.02
 $distance;
 distance+240;
-
-	Section.Begin(0,2,4);
+	
+	Section.Begin(0,2,5);
 $ATS=distance;
 	include 'AbsolutePSignalBeacon.map';
 $ATS;
@@ -19,13 +19,13 @@ $test=1;
 	Structure['Sig_Arm_LD'].Put('1',-2.4-$test,2.78,0,,-90,,,5);
 	Structure['SigR20'].Put('1',-1.8-$test,2.68,,,,,,5);
 	Structure['Sig30'].Put('1',-1.8-$test,3.9,,,,,,5);
-
+	
 distance+20;
 	Track['3'].Position(0,-0.01,600,0);
 	Track['5'].Position(4,-0.01,-600,0);
 	Repeater['Rail3'].Begin0('3',3,4.99,5,'rail');
 distance+50;
-
+	
 	Track['3'].Position(2,-0.01,-600,0);
 	Track['5'].Position(2,-0.01,600,0);
 distance+50;
@@ -33,7 +33,7 @@ distance+50;
 	Track['5'].Position(0,-0.01,0,0);
 	Track['2'].Position(4,-0.01,0,0);
 distance+80;
-
+	
 	Track['5'].Position(0,-0.01,-1500,0);
 	Track['3'].Position(4,-0.01,1500,0);
 distance+70;
@@ -48,29 +48,29 @@ distance+30;
 	Structure['kasenhangL'].Put('5',-1.9,0,0,,,,,);
 	Structure['kasenhangR'].Put('4',1.9,0,0,,,,,);
 distance+100;
-
+	
 	Track['5'].Position(-8,-0.01,0,0);
 	Track['3'].Position(12,-0.01,0,0);
 	Repeater['modernformL1'].Begin('1',-0.15, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformR2'].Begin('5', 0.15, 0, 0, , , ,3,,5, 'modernformR');
 	Repeater['modernformL2'].Begin('3',-0.15, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformR1'].Begin('2', 0.15, 0, 0, , , ,3,,5, 'modernformR');
-	Repeater['modernformgroundL1'].Begin('1',-9,-0.01,0, , , ,3,,5, 'modernformgroundL1');
-	Repeater['modernformgroundL2'].Begin('3',-9,-0.01,0, , , ,3,,5, 'modernformgroundL1');
+	Repeater['modernformgroundL1'].Begin('1',0.3,-0.01,0, , , ,3,,5, 'modernformgroundL1');
+	Repeater['modernformgroundL2'].Begin('3',0.3,-0.01,0, , , ,3,,5, 'modernformgroundL1');
 distance+260;
 	Station['Muenzuka'].Put(1,-5,5);
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
 distance+10;
-
+	
 	Repeater['modernformL1'].End();
 	Repeater['modernformR1'].End();
 	Repeater['modernformL2'].End();
 	Repeater['modernformR2'].End();
 	Repeater['modernformgroundL1'].End();
 	Repeater['modernformgroundL2'].End();
-
+	
 distance+40;
-	Section.Begin(0,4);
+	Section.Begin(0,5);
 	Signal['Type2gr'].Put(0,'1',-2.4,4.4,-0.06,,,,,);
 	Structure['LabelBS4_L'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
@@ -103,7 +103,7 @@ distance+50;
 	Track['5'].Position(0,-0.01,600,0);
 	Track['3'].Position(4,-0.01,-600,0);
 distance+50;
-
+	
 	Track['5'].Position(2,-0.01,-600,0);
 	Track['3'].Position(2,-0.01,600,0);
 distance+50;

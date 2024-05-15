@@ -1,0 +1,91 @@
+BveTs Map 2.02
+$distance;
+	
+	Section.Begin(0,2,6);
+	Signal['Type3'].Put(0,'1',-2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+distance+30;
+	Repeater['pole1'].End();
+	Curve.Begin(-1500,0);
+	Track['2'].X.Interpolate(0,750);
+	Repeater['rail2'].Begin('2',0,0,0,0,0,0,0,4.99,5,'rail');
+	Repeater['kasen2'].Begin0('2',3,39.99,40,'kasen');
+distance+54.7;
+	Curve.Begin(1500,0);
+	Track['2'].X.Interpolate(2,-750);
+	Structure['acpole'].Put('2',0,0,0,0,180,0,0,0);
+	Structure['acpole'].Put('1',0,0,0,0,0,0,0,0);
+	
+distance+54.7;
+	Curve.End();
+	Track['2'].X.Interpolate(4,0);
+	
+	Repeater['pole1'].Begin('1',2,0,0,0,0,0,0,0,40,'fukusenpole5');
+	
+	distance+250;
+	Station['KitaUsami'].Put(-1,0,0);
+	Structure['stop'].Put('1',-2,0,0,0,0,0,0,0);
+	//Structure['FormDoor'].Put('1',-2.1,1.8,0,0,0,0,0,0);
+	//Structure['FormDoor1'].Put('1',-2.1,1.8,-3.8,0,0,0,0,0);
+$distance=distance;
+$Track='1';
+	//include 'TrainStructure.map';
+$distance;
+	
+distance+15;
+	Repeater['modernformL1'].End();
+	Repeater['modernformL2'].End();
+	Repeater['modernformR1'].End();
+	Repeater['modernformR2'].End();
+	Repeater['modernformgroundL1'].End();
+	Repeater['modernformgroundL2'].End();
+	Repeater['FormFence1'].End();
+	Repeater['FormFence2'].End();
+	Repeater['pole1'].End();
+	Structure['fukusenpole5'].Put('1',2,0,0,0,0,0,0,0);
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',-2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
+distance+15;
+	
+	
+	Track['2'].Position(4,0,750,0);
+	Track['3'].Position(0,0,750,0);
+	Track['4'].Position(4,0,0,0);
+	Repeater['rail3'].Begin0('3',3,0,5,'rail');
+	Repeater['rail4'].Begin0('4',3,0,5,'rail');
+	Curve.Begin(-1500,0);
+	
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+	
+	
+	
+distance+54.7;
+	Curve.Begin(1500,0);
+	Track['2'].Position(6,0,-750,0);
+	Track['3'].Position(2,0,-750,0);
+	Track['4'].Position(4,0,0,0);
+	Structure['acpole'].Put('1',0,0,0,0,  0,0,0,0);
+	Structure['acpole'].Put('2',0,0,0,0,180,0,0,0);
+distance+54.7;
+	Track['2'].Position(8,0);
+	Track['3'].Position(4,0);
+	Track['4'].Position(4,0);
+	Curve.End();
+	Repeater['pole1'].Begin('1',0,0,0,0,  0,0,0,0,40,'acpole');
+	Repeater['pole2'].Begin('2',0,0,0,0,180,0,0,0,40,'acpole');
+	Repeater['Rail4'].End();
+$distance=distance;

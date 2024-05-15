@@ -1,0 +1,10 @@
+BveTs Map 2.02
+$distance;
+$distance-1.6;
+    Repeater['FormFence'+$Track].End();
+$distance;
+    Structure['FormDoor1'].Put($Track,$Side*2.1,1.8,0,0,180,0,0,0);
+    Structure['FormDoor1'].Put($Track,$Side*2.1,1.8,-1.6,0,0,0,0,0);
+    Repeater['FormFence'+$Track].Begin($Track,$Side*2.1,1.6,0,0,0,0,0,0,0.2,'FormFence');
+
+$distance;

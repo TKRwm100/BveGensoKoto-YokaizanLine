@@ -3,3 +3,5 @@ include '<AtsEx::USEATSEX>';
 include '<AtsEx::READDEPTH>1';
 include '<AtsEx::MapPluginUsing>MapPluginUsing.xml';
 include 'Map901MnEx.map';
+//include 'Tester.txt';
+25;

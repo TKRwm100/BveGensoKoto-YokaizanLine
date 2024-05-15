@@ -1,0 +1,1964 @@
+BveTs Map 2.02
+$distance;
+	
+distance+8015;
+	Curve.BeginTransition();
+distance+100;
+	Curve.Begin(-4000,0);
+distance+4000;
+	Curve.BeginTransition();
+distance+100;
+	Curve.End();
+distance+7000;
+	
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+	   Repeater['pole1'].Begin('1',2,0,0,0,0,0,0,0,40,'fukusenpole5');
+	   Repeater['pole2'].End();
+	
+	   Repeater['modernformL1'].Begin('1',-0.15, 0, 0, , , ,3,,5, 'modernformL');
+	Repeater['modernformR1'].Begin('2', 0.15, 0, 0, , , ,3,,5, 'modernformR');
+	Repeater['modernformgroundL1'].Begin('1',0.3,-0.005,0, , , ,3,,5, 'modernformgroundL1');
+	Repeater['modernformgroundR1'].Begin('2',0.3,-0.005,0, , , ,3,,5, 'modernformgroundR1');
+	   Repeater['FormFence1'].Begin('1',-2.1,1.6,0,0,0,0,0,0,0.2,'FormFence');
+	   Repeater['FormFence2'].Begin('2',2.1,1.6,0,0,0,0,0,0,0.2,'FormFence');
+distance+17;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+16;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+distance+4;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+15;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+distance+6;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+16;
+$distance=distance;
+$Track='1';
+$Side=-1;
+	   include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	   include 'FormDoor3.map';
+$distance;
+distance+6;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+16;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+$distance;
+distance+5;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+15;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+6;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+16;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+$distance;
+distance+5;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+22;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+14;
+$distance=distance;
+$Track='1';
+	   $Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+2;
+	   Station['HamakawaYubetsu'].Put(-1,0,0);
+	   Structure['stop'].Put('1',-2,0,0,0,0,0,0,0);
+	   //Structure['FormDoor'].Put('1',-2.1,1.8,0,0,0,0,0,0);
+	   //Structure['FormDoor1'].Put('1',-2.1,1.8,-3.8,0,0,0,0,0);
+$distance=distance;
+$Track='1';
+	//include 'TrainStructure.map';
+$distance;
+	
+distance+15;
+	Repeater['modernformL1'].End();
+	Repeater['modernformR1'].End();
+	Repeater['modernformgroundL1'].End();
+	Repeater['modernformgroundR1'].End();
+	   Repeater['FormFence1'].End();
+	   Repeater['FormFence2'].End();
+	   Repeater['pole1'].End();
+	   Repeater['pole1'].Begin('1',0,0,0,0,0,0,0,0,40,'acpole');
+	   Repeater['pole2'].Begin('2',0,0,0,0,180,0,0,0,40,'acpole');
+	   Structure['fukusenpole5'].Put('1',2,0,0,0,0,0,0,0);
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+	
+distance+2;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+	Track['bwr'].Position(4,0);
+	Track['bwl'].Position(0,0);
+	Repeater['bridgewallL1'].Begin('bwl',0.7,-0.5,0, , , ,3,,5, 'bridgewallL');
+	Repeater['bridgewallR1'].Begin('bwr',-0.7,-0.5,0, , , ,3,,5, 'bridgewallR');
+distance+50;
+	Track['bwr'].Position(5,0);
+	Track['bwl'].Position(-1,0);
+	Structure['Tunnelpotal'].Put('1',2,0,0,0,0,0,0,0);
+	Repeater['Tunnel'].Begin('1',2,0,0,0,0,0,0,0,5,'Tunnellp');
+	Repeater['rail'].Begin('1',0,0,0,0,0,0,3,4.99,5,'slabraildark');
+	Repeater['rail2'].Begin('2',0,0,0,0,0,0,3,4.99,5,'slabraildark');
+	
+	//Repeater['k'].Begin('1',0,0,24,0,0,0,3,0,40,'kentikugenkai');
+	//Repeater['k2'].Begin('2',0,0,24,0,0,0,3,0,40,'kentikugenkai');
+	
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	   Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	   Structure['Sig5t5_LED'].Put('1',-2.1,3,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+	
+	   
+	   Repeater['pole1'].Begin('1',2,0,0,0,0,0,0,0,40,'fukusenpole5');
+	   Repeater['pole2'].End();
+	   Structure['Tunnellp3'].Put('1',2,0,0,0,0,0,3,0);
+	Repeater['tunnel'].Begin('1',2,0,0,0,0,0,3,0,5,'Tunnellp2');
+	//Repeater['tunnel1'].Begin('1',-4,2.8,0,0,0,0,3,0,5,'tunwall');
+	   Repeater['modernformL1'].Begin('1',-0.15, 0, 0, , , ,3,,5, 'modernformL');
+	Repeater['modernformR1'].Begin('2', 0.15, 0, 0, , , ,3,,5, 'modernformR');
+	Repeater['modernformgroundL1'].Begin('1',0.3,-0.005,0, , , ,3,,5, 'modernformgroundL1');
+	Repeater['modernformgroundR1'].Begin('2',0.3,-0.005,0, , , ,3,,5, 'modernformgroundR1');
+	   distance+250;
+	   Station['Sanzu'].Put(-1,0,0);
+	   Structure['stop'].Put('1',-2,0,0,0,0,0,0,0);
+	   //Structure['FormDoor'].Put('1',-2.1,1.8,0,0,0,0,0,0);
+	   //Structure['FormDoor1'].Put('1',-2.1,1.8,-3.8,0,0,0,0,0);
+$distance=distance;
+$Track='1';
+	//include 'TrainStructure.map';
+$distance;
+	
+distance+15;
+	Repeater['modernformL1'].End();
+	Repeater['modernformR1'].End();
+	Repeater['modernformgroundL1'].End();
+	Repeater['modernformgroundR1'].End();
+	   Repeater['FormFence1'].End();
+	   Repeater['FormFence2'].End();
+	   Repeater['pole1'].End();
+	   Repeater['pole1'].Begin('1',0,0,0,0,0,0,0,0,40,'acpole');
+	   Repeater['pole2'].Begin('2',0,0,0,0,180,0,0,0,40,'acpole');
+	   Structure['fukusenpole5'].Put('1',2,0,0,0,0,0,0,0);
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	   Structure['Sig5t5_LED'].Put('1',-2.1,3,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	
+	   Structure['Tunnellp3'].Put('1',2,0,0,0,180,0,3,0);
+	Repeater['Tunnel'].Begin('1',2,0,0,0,0,0,0,0,5,'Tunnellp');
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	Curve.Begin(15000,0);
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+Curve.End();
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	   Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	   Structure['Sig5t5_LED'].Put('1',-2.1,3,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+	
+	   
+	   Repeater['pole1'].Begin('1',2,0,0,0,0,0,0,0,40,'fukusenpole5');
+	   Repeater['pole2'].End();
+	   Structure['Tunnellp3'].Put('1',2,0,0,0,0,0,3,0);
+	   Repeater['tunnel'].Begin('1',2,0,0,0,0,0,3,0,5,'Tunnellp2');
+	   //Repeater['tunnel1'].Begin('1',-4,2.8,0,0,0,0,3,0,5,'tunwall');
+	   Repeater['modernformL1'].Begin('1',-0.15, 0, 0, , , ,3,,5, 'modernformL');
+	Repeater['modernformR1'].Begin('2', 0.15, 0, 0, , , ,3,,5, 'modernformR');
+	Repeater['modernformgroundL1'].Begin('1',0.3,-0.005,0, , , ,3,,5, 'modernformgroundL1');
+	Repeater['modernformgroundR1'].Begin('2',0.3,-0.005,0, , , ,3,,5, 'modernformgroundR1');
+	   distance+250;
+	   Station['Higan'].Put(-1,0,0);
+	   Structure['stop'].Put('1',-2,0,0,0,0,0,0,0);
+	   //Structure['FormDoor'].Put('1',-2.1,1.8,0,0,0,0,0,0);
+	   //Structure['FormDoor1'].Put('1',-2.1,1.8,-3.8,0,0,0,0,0);
+$distance=distance;
+$Track='1';
+	   //include 'TrainStructure.map';
+$distance;
+	
+distance+15;
+	Repeater['modernformL1'].End();
+	Repeater['modernformR1'].End();
+	Repeater['modernformgroundL1'].End();
+	Repeater['modernformgroundR1'].End();
+	   Repeater['FormFence1'].End();
+	   Repeater['FormFence2'].End();
+	   Repeater['pole1'].End();
+	   Repeater['pole1'].Begin('1',0,0,0,0,0,0,0,0,40,'acpole');
+	   Repeater['pole2'].Begin('2',0,0,0,0,180,0,0,0,40,'acpole');
+	   Structure['fukusenpole5'].Put('1',2,0,0,0,0,0,0,0);
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	   Structure['Sig5t5_LED'].Put('1',-2.1,3,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+	   Structure['Tunnellp3'].Put('1',2,0,0,0,180,0,3,0);
+	   Repeater['Tunnel'].Begin('1',2,0,0,0,0,0,0,0,5,'Tunnellp');
+$distance=distance;
+	distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	   Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	   Structure['Sig5t5_LED'].Put('1',-2.1,3,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+	Track['bwr'].Position(5,0);
+	Track['bwl'].Position(-1,0);
+	Structure['Tunnelpotal'].Put('1',2,0,0,0,180,0,0,0);
+	Repeater['Tunnel'].End();
+	Repeater['rail'].Begin('1',0,0,0,0,0,0,3,4.99,5,'slabrail');
+	Repeater['rail2'].Begin('2',0,0,0,0,0,0,3,4.99,5,'slabrail');
+	Repeater['bridgewallL1'].Begin('bwl',0.7,-0.5,0, , , ,3,,5, 'bridgewallL');
+	Repeater['bridgewallR1'].Begin('bwr',-0.7,-0.5,0, , , ,3,,5, 'bridgewallR');
+distance+50;
+	Track['bwr'].Position(4,0);
+	Track['bwl'].Position(0,0);
+	Repeater['bridgewallL1'].Begin('1',0.7,-0.5,0, , , ,3,,5, 'bridgewallL');
+	Repeater['bridgewallR1'].Begin('2',-0.7,-0.5,0, , , ,3,,5, 'bridgewallR');
+
+
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+	Repeater['pole1'].Begin('1',2,0,0,0,0,0,0,0,40,'fukusenpole5');
+	Repeater['pole2'].End();
+	
+	Repeater['modernformL1'].Begin('1',-0.15, 0, 0, , , ,3,,5, 'modernformL');
+	Repeater['modernformR1'].Begin('2', 0.15, 0, 0, , , ,3,,5, 'modernformR');
+	Repeater['modernformgroundL1'].Begin('1',0.3,-0.005,0, , , ,3,,5, 'modernformgroundL1');
+	Repeater['modernformgroundR1'].Begin('2',0.3,-0.005,0, , , ,3,,5, 'modernformgroundR1');
+	Repeater['FormFence1'].Begin('1',-2.1,1.6,0,0,0,0,0,0,0.2,'FormFence');
+	Repeater['FormFence2'].Begin('2',2.1,1.6,0,0,0,0,0,0,0.2,'FormFence');
+distance+17;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+16;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+distance+4;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+15;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+distance+6;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+16;
+$distance=distance;
+$Track='1';
+$Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+6;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+16;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+$distance;
+distance+5;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+21;
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+15;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+6;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+16;
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor2.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor2.map';
+$distance;
+distance+5;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+22;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor.map';
+$distance;
+distance+14;
+$distance=distance;
+$Track='1';
+	$Side=-1;
+	include 'FormDoor3.map';
+$Track='2';
+$Side=1;
+	include 'FormDoor3.map';
+$distance;
+distance+2;
+	Station['Kitahoro'].Put(-1,0,0);
+	Structure['stop'].Put('1',-2,0,0,0,0,0,0,0);
+	//Structure['FormDoor'].Put('1',-2.1,1.8,0,0,0,0,0,0);
+	//Structure['FormDoor1'].Put('1',-2.1,1.8,-3.8,0,0,0,0,0);
+$distance=distance;
+$Track='1';
+	//include 'TrainStructure.map';
+$distance;
+	
+distance+15;
+	Repeater['modernformL1'].End();
+	Repeater['modernformR1'].End();
+	Repeater['modernformgroundL1'].End();
+	Repeater['modernformgroundR1'].End();
+	Repeater['FormFence1'].End();
+	Repeater['FormFence2'].End();
+	Repeater['pole1'].End();
+	Repeater['pole1'].Begin('1',0,0,0,0,0,0,0,0,40,'acpole');
+	Repeater['pole2'].Begin('2',0,0,0,0,180,0,0,0,40,'acpole');
+	Structure['fukusenpole5'].Put('1',2,0,0,0,0,0,0,0);
+	distance+25;
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+$ATS=distance;
+	include 'AbsolutePSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+	
+	
+	Section.Begin(0,1,2,3,6,6,7);
+	Signal['Type5_LED'].Put(0,'1',2.4,4.4,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+	   
+$ATS=distance;
+	include 'BlockPSignalBeacon.map';
+$ATS;
+distance+1000;
+	Signal['Relay_LED'].Put(1,'1',2.4,4.4,-0.06,,,,,);
+	Signal['RelayGG_LED'].Put(1,'1',2.4,5,-0.06,,,,,);
+	Structure['LabelBS4_L'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
+distance+500;
+$distance=distance;

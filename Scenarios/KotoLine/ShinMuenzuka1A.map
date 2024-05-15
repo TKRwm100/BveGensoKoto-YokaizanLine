@@ -1,7 +1,7 @@
 BveTs Map 2.02
 $distance;
 distance+16;
-	Section.Begin(0,2,4);
+	Section.Begin(0,2,6);
 	Signal['Type3'].Put(0,'1',-2.4,4.4,-0.06,,,,,);
 	Structure['LabelBS4_L'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
@@ -41,7 +41,7 @@ distance+260;
 	Station['ShinMuenzukaSignal'].Put(1,-5,5);
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
 distance+40;
-	Section.Begin(0,2,4);
+	Section.Begin(0,2,6);
 	Signal['Type3'].Put(0,'1',-2.4,4.4,-0.06,,,,,);
 	Structure['LabelBS4_L'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);

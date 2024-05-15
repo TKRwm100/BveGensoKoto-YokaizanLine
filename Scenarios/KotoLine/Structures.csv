@@ -16,6 +16,8 @@ Tunnelentry,Structures\Tunnel\huku_c1_ent.x
 Tunnelpotal,Structures\Tunnel\huku_c1_Potal1.x
 Tunnelpotaldark,Structures\Tunnel\huku_c1_Potaldark.x
 Tunnellp,Structures\Tunnel\huku_c1_lp.x
+Tunnellp2,Structures\Tunnel\hukuhuku_c1_lp.x
+Tunnellp3,Structures\Tunnel\kakuhuku_c1_lp.x
 Tunnelentry-tansen,Structures\Tunnel\1go_c1_ent.x
 Tunnelexit-tansen,Structures\Tunnel\1go_c1_ext.x
 Tunnelpotal-tansen,Structures\Tunnel\1go_c1_Potal1.x
@@ -392,6 +394,7 @@ Flare51      ,Structures\FCS_TM\ColorSignal\Flare51.x
 Flare52      ,Structures\FCS_TM\ColorSignal\Flare52.x
 Flare53      ,Structures\FCS_TM\ColorSignal\Flare53.x
 Flare54      ,Structures\FCS_TM\ColorSignal\Flare54.x
+Flare55      ,Structures\FCS_TM\ColorSignal\Flare55.x
 
 
 #信号(LED式)
@@ -439,6 +442,11 @@ Sig4E2_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb2_LED.x
 Sig4E3_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb3_LED.x
 Sig4E4_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb4_LED.x
 
+Sig4ygt0_LED      ,Structures\FCS_TM\ColorSignal\Sig4bygt0_LED.x
+Sig4ygt2_LED      ,Structures\FCS_TM\ColorSignal\Sig4bygt2_LED.x
+Sig4ygt3_LED      ,Structures\FCS_TM\ColorSignal\Sig4bygt3_LED.x
+Sig4ygt4_LED      ,Structures\FCS_TM\ColorSignal\Sig4bygt4_LED.x
+
 #5灯式
 Sig5N_LED    ,Structures\FCS_TM\ColorSignal\Sig5bN_LED.x
 Sig50_LED    ,Structures\FCS_TM\ColorSignal\Sig5b0_LED.x
@@ -446,6 +454,16 @@ Sig51_LED    ,Structures\FCS_TM\ColorSignal\Sig5b1_LED.x
 Sig52_LED    ,Structures\FCS_TM\ColorSignal\Sig5b2_LED.x
 Sig53_LED    ,Structures\FCS_TM\ColorSignal\Sig5b3_LED.x
 Sig54_LED    ,Structures\FCS_TM\ColorSignal\Sig5b4_LED.x
+Sig55_LED    ,Structures\FCS_TM\ColorSignal\Sig5b5_LED.x
+
+#5灯式(トンネル用)
+Sig5tN_LED    ,Structures\FCS_TM\ColorSignal\Sig5bt0_LED.x
+Sig5t0_LED    ,Structures\FCS_TM\ColorSignal\Sig5bt0_LED.x
+Sig5t1_LED    ,Structures\FCS_TM\ColorSignal\Sig5bt1_LED.x
+Sig5t2_LED    ,Structures\FCS_TM\ColorSignal\Sig5bt2_LED.x
+Sig5t3_LED    ,Structures\FCS_TM\ColorSignal\Sig5bt3_LED.x
+Sig5t4_LED    ,Structures\FCS_TM\ColorSignal\Sig5bt4_LED.x
+Sig5t5_LED    ,Structures\FCS_TM\ColorSignal\Sig5bt5_LED.x
 
 #地上子
 ATS-P_1way   ,Structures\FCS_TM\Beacon\ATS-P_1way.x
@@ -464,6 +482,7 @@ Relay1       ,Structures\FCS_TM\RelaySignal\Relay1.x
 Relay4       ,Structures\FCS_TM\RelaySignal\Relay4.x
 
 #中継LED
+RelayN_LED   ,Structures\FCS_TM\RelaySignal\RelayN_LED.x
 Relay0_LED   ,Structures\FCS_TM\RelaySignal\Relay0_LED.x
 Relay1_LED   ,Structures\FCS_TM\RelaySignal\Relay1_LED.x
 Relay4_LED   ,Structures\FCS_TM\RelaySignal\Relay4_LED.x
@@ -471,7 +490,15 @@ FlareR0      ,Structures\FCS_TM\RelaySignal\FlareR0.x
 FlareR1      ,Structures\FCS_TM\RelaySignal\FlareR1.x
 FlareR4      ,Structures\FCS_TM\RelaySignal\FlareR4.x
 
-#入換信号機(入換標識)
+#色灯式中継LED
+RelayT0_LED   ,Structures\FCS_TM\ColorSignal\Sig3Rt0_LED.x
+RelayT1_LED   ,Structures\FCS_TM\ColorSignal\Sig3Rt2_LED.x
+RelayT4_LED   ,Structures\FCS_TM\ColorSignal\Sig3Rt4_LED.x
+FlareRT0      ,Structures\FCS_TM\ColorSignal\Flare3r0.x
+FlareRT1      ,Structures\FCS_TM\ColorSignal\Flare3r2.x
+FlareRT4      ,Structures\FCS_TM\ColorSignal\Flare3r4.x
+
+#入換信号機(入換標識)r
 SigI0W       ,Structures\FCS_TM\SwitchSig\SigSb_0W.x # 停止_白タイプ
 SigI0R       ,Structures\FCS_TM\SwitchSig\SigSb_0R.x # 停止_赤タイプ
 SigI4        ,Structures\FCS_TM\SwitchSig\SigSb_4.x
@@ -747,4 +774,14 @@ sig1,Structures\Section\null.x,
 RailEnd1,..\Nagoya_Common\Railway_Obj\End\1_End.x
 
 #建築限界
-Kentikugenkai,..\KentikuGenkai\Kentikugenkai.x
+#Kentikugenkai,..\KentikuGenkai\Kentikugenkai.x
+
+#出発承認合図機
+ShupatsuShoninAizuKi,Structures\Toukaitetudou\ShupatsuShoninAizuki.x
+ShupatsuShoninAizuKi2,Structures\Toukaitetudou\ShupatsuShoninAizuki.x
+
+#ホームドア
+FormDoor,Structures\Toukaitetudou\FormDoor.x
+FormDoor1,Structures\Toukaitetudou\FormDoor1.x
+#ホーム柵
+FormFence,Structures\Toukaitetudou\FormFence.x

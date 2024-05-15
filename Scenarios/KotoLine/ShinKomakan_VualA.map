@@ -16,6 +16,7 @@ distance+50;
 distance+300;
 	
 	Gradient.Begin(-3);
+	Curve.BeginTransition();
 	Track['ground'].Position(0,-13,0,0);
 
 	Track['3'].X.Interpolate(0,0);
@@ -26,15 +27,17 @@ distance+25;
 	Track['4'].X.Interpolate(0,0);
 	Track['6'].X.Interpolate(0,0);
 	SpeedLimit.Begin(75);
-	Curve.Begin(-400,0);
+	Curve.Begin(-400,-0.0001);
+	
 distance+1256;
-	Curve.End();
+	Curve.BeginTransition();
+
 $Beacon=distance;
 distance+250;
 	Beacon.Put(19,0,0); #ã»ê¸
 	SpeedLimit.Begin(90);
 $Beacon;
-	Curve.Begin(1200,0);
+	Curve.Begin(1200,0.0001);
 distance+1884;
 	Curve.End();
 	Gradient.BeginTransition();
@@ -58,7 +61,15 @@ $Beacon;
 	Repeater['bridgewallL4'].End();
 	Repeater['bridgewallR4'].End();
 	Repeater['slabRail'].End();
-	Repeater['Rail'].Begin0('1',1,4.99,5,'rail');
+	Repeater['concbridge'].End();
+	Repeater['concbridge1'].End();
+	Repeater['concbridge2'].End();
+	Repeater['concbridge3'].End();
+	Repeater['concbridge4'].End();
+	Repeater['concbridge5'].End();
+	Repeater['concbridge6'].End();
+	Repeater['Rail'].Begin('1',0,0,0,0,0,0,3,4.99,5,'rail');
+	//Repeater['Rail'].Begin0('1',3,4.99,5,'rail');
 	Repeater['slabRail3'].End();
 	Repeater['Rail3'].Begin0('3',1,4.99,5,'rail');
 	Repeater['slabRail4'].End();
@@ -74,19 +85,20 @@ distance+700;
 	Beacon.Put(9,0,300050);
 distance+200;
 	Beacon.Put(6,0,300065);
+	Curve.BeginTransition();
 distance+100;
 	SpeedLimit.Begin(60);
-	Curve.Begin(-800,0);
+	Curve.Begin(-800,-0.0001);
 distance+100;
-	Curve.End();
-	Curve.Begin(800,0);
+Curve.BeginTransition();
+	Curve.Begin(800,0.0001);
 	Track['3'].X.Interpolate(0,0);
 	Track['4'].X.Interpolate(0,0);
 	Track['6'].X.Interpolate(0,0);
 distance+100;
 
 
-	Section.Begin(0,2,4);
+	Section.Begin(0,2,5);
 $ATS=distance;
 	include 'AbsolutePSignalBeacon.map';
 $ATS;

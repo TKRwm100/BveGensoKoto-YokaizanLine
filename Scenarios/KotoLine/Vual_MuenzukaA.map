@@ -5,7 +5,7 @@ distance+500;
 
 	Curve.BeginTransition();
 distance+16;
-	Curve.Begin(600,0);
+	Curve.Begin(600,0.001);
 distance+600;
 	Curve.BeginTransition();
 distance+16;

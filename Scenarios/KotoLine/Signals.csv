@@ -87,9 +87,15 @@ Type4yg_LED, Sig4yg0_LED,,             Sig4yg2_LED, Sig4yg3_LED, Sig4yg4_LED
 #4灯式(遠方)
 Type4E_LED,             ,,                  Sig4E2,      Sig4E3,      Sig4E4
           ,             ,,               Flare4yg2,   Flare4yg3,   Flare4yg4
+#4灯式(減速/背板無し)
+Type4ygt_LED,Sig4ygt0_LED,,                 Sig4ygt2_LED,     Sig4ygt3_LED,     Sig4ygt4_LED
+       ,       Flare4yy0,,               Flare4yg2,   Flare4yg3,   Flare4yg4
 #5灯式
-Type5_LED,     Sig50_LED,   Sig51_LED,   Sig52_LED,   Sig53_LED,   Sig54_LED
-         ,       Flare50,     Flare51,     Flare52,     Flare53,     Flare54
+Type5_LED,     Sig50_LED,   Sig51_LED,   Sig52_LED,   Sig53_LED,   Sig54_LED,,,Sig55_LED
+         ,       Flare50,     Flare51,     Flare52,     Flare53,     Flare54,,,Flare55
+#5灯式(背版無し)
+Type5t_LED,     Sig5t0_LED,   Sig5t1_LED,   Sig5t2_LED,   Sig5t3_LED,   Sig5t4_LED,,,Sig5t5_LED
+         ,       Flare50,     Flare51,     Flare52,     Flare53,     Flare54,,,Flare55
 
 #信号
 #中継信号
@@ -99,6 +105,12 @@ Relay,        Relay0,        Relay1,                  ,               ,    Relay
 #中継信号(LED式)
 Relay_LED,   Relay0_LED,  Relay1_LED,                 ,               ,Relay4_LED
             ,FlareR0,        FlareR1,                 ,               ,   FlareR4
+#高速中継信号(LED式)
+RelayGG_LED,   RelayN_LED,  ,                 ,               ,,,,Relay4_LED
+            , ,        ,                 ,               ,   ,,,FlareR4
+#トンネル用中継信号(LED式)
+RelayT_LED,   RelayT0_LED,  RelayT1_LED,                 ,               ,RelayT4_LED
+            ,FlareRT0,        FlareRT1,                 ,               ,   FlareRT4
 
 #信号
 ##進路予告機

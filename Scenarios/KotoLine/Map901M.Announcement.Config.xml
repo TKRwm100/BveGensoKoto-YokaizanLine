@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <target key="Test">
-        <sound key="ThisTrainJa"/>
-        <wait length="5000"/>
-        <sound key="LtdExpTrainJa"/>
+        <sound key="014_四国めたん（ノーマル）_幻想特急をご利用く….wav"/>
+        <sound key="015_四国めたん（ノーマル）_ありがとうございます.wav"/>
+        
     </target>
 </Config>

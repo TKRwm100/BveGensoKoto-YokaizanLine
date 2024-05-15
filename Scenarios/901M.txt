@@ -1,10 +1,10 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = 湖東線 臨時特急 901M 紅魔館->ヴワル
+Title = 湖東線ほか 臨時特急 901M 紅魔館->幽明
 Author = Toukaitetudou&SapporoNingyo&Contributors on Github
 Route = KotoLine\Map901M.map
 RouteTitle = Koto Line
 Vehicle = NS\Train\681\Vehicle_txt\Vehicle_W_NP.txt
 VehicleTitle = JR West 681 series（9 car）
 Image = KotoLine\samune.jpg
-Comment = [ATS-P] 最高速度：85km/h 発着番線:紅魔館⑤、ヴワル②
+Comment = [ATS-P] 最高速度：140km/h 発着番線:紅魔館⑤、ヴワル②
