@@ -48,4 +48,5 @@ distance+100;
     Curve.End();
     Repeater['pole1'].Begin('1',0,0,0,0,180,0,0,0,40,'acpole');
 	Repeater['Rail2'].End();
+	Repeater['kasen2'].End();
 $distance=distance;

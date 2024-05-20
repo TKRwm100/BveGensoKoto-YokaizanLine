@@ -15,6 +15,7 @@ distance+30;
     Repeater['pole1'].End();
     Curve.Begin(-1500,0);
     Track['2'].X.Interpolate(0,750);
+	Repeater['kasen2'].Begin0('2',3,39.99,40,'kasen');
     Repeater['rail2'].Begin('2',0,0,0,0,0,0,0,4.99,5,'rail');
 distance+54.7;
     Curve.Begin(1500,0);
@@ -31,6 +32,9 @@ distance+54.7;
     Repeater['rail4'].Begin0('4',0,0,5,'rail');
     Repeater['pole3'].Begin('3',0,0,0,0,0,0,0,0,40,'acpole');
     Repeater['pole4'].Begin('4',0,0,0,0,180,0,0,0,40,'acpole');
+	Repeater['kasen3'].Begin0('3',3,39.99,40,'kasen');
+	Repeater['kasen4'].Begin0('4',3,39.99,40,'kasen');
+
     distance+69;
     Track['3'].X.Interpolate(-4,600);
     Track['4'].X.Interpolate(8,-600);
@@ -263,7 +267,8 @@ distance+15;
     Repeater['rail4'].End();
     Repeater['pole3'].End();
     Repeater['pole4'].End();
-    
+    Repeater['kasen3'].End();
+    Repeater['kasen4'].End();
 
     Track['2'].Position(4,0,-750,0);
     Curve.Begin(1500,0);
@@ -281,4 +286,5 @@ distance+54.7;
     Curve.End();
     Repeater['pole1'].Begin('1',0,0,0,0,180,0,0,0,40,'acpole');
 	Repeater['Rail2'].End();
+    Repeater['kasen2'].End();
 $distance=distance;
